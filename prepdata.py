@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 from datetime import datetime
+import re
 
 # Define the path to the folder
 folder_path = './data'
@@ -24,7 +25,7 @@ for filename in os.listdir(folder_path):
 
         # Extract the date from the filename
         date_string = re.findall(r'\d+', filename)  # Assumes the format is FOMCpresconfYYYYMMDD
-        datetime.strptime(date_string[0], "%Y%m%d").strftime("%m/%d/%Y")
+        date_value = datetime.strptime(date_string[0], "%Y%m%d").strftime("%m/%d/%Y")
 
         # Here, you will need to derive the other fields (SOURCE, TITLE, CHAIRMAN VARIABLE)
         # from either the filename or the text contents.
