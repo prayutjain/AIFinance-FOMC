@@ -232,7 +232,8 @@ class FedReserveData:
 
         print("Done.")
 
-        self.get_clean_data()
+        ## TODO@Prayut: Mske this functionslity work
+        # self.get_clean_data()
 
         return self.df
     
