@@ -1,6 +1,6 @@
 ## Script for scraping all FOMC data into 1 dataframe
 
-from utilities_v1 import FedReserveData
+from util.utilities_v1 import FedReserveData
 
 chrome_path = r"C:/Users/Prayut Jain/AppData/Local/Google/Chrome/User Data/Default"
 
