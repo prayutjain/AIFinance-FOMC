@@ -1,0 +1,1277 @@
+,date,segment,emotion_roberta,emotion_gpt
+0,2011-04-27,opening_remark,"{'neutral': 6, 'gratitude': 1}",Counter({'Neutral': 5})
+1,2011-04-27,qa_pair1,{'curiosity': 1},Counter({'Pessimism': 1})
+2,2011-04-27,qa_pair2,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+3,2011-04-27,qa_pair3,{'gratitude': 1},Counter({'Neutral': 1})
+4,2011-04-27,qa_pair4,{'remorse': 1},Counter({'Pessimism': 1})
+5,2011-04-27,qa_pair5,"{'curiosity': 1, 'neutral': 2}","Counter({'Pessimism': 1, 'Concerned': 1})"
+6,2011-04-27,qa_pair6,{'optimism': 2},Counter({'Uncertain': 1})
+7,2011-04-27,qa_pair7,"{'curiosity': 1, 'approval': 1}",Counter({'Concerned': 1})
+8,2011-04-27,qa_pair8,{'neutral': 2},"Counter({'Uncertain': 1, 'Neutral': 1})"
+9,2011-04-27,qa_pair9,{'neutral': 1},Counter({'Uncertain': 1})
+10,2011-04-27,qa_pair10,{'neutral': 2},Counter({'Optimism': 1})
+11,2011-04-27,qa_pair11,"{'curiosity': 1, 'neutral': 1}","Counter({'Pessimism': 1, 'Optimism': 1})"
+12,2011-04-27,qa_pair12,{'curiosity': 1},Counter({'Uncertain': 1})
+13,2011-04-27,qa_pair13,{'neutral': 2},Counter({'Pessimism': 1})
+14,2011-04-27,qa_pair14,{'neutral': 1},Counter({'Optimism': 1})
+15,2011-04-27,qa_pair15,"{'optimism': 1, 'neutral': 1}",Counter({'Concerned': 1})
+16,2011-04-27,qa_pair16,{'neutral': 2},Counter({'Concerned': 1})
+17,2011-04-27,qa_pair17,"{'gratitude': 1, 'optimism': 1}","Counter({'Pessimism': 1, 'Concerned': 1})"
+18,2011-04-27,qa_pair18,{'neutral': 2},Counter({'Concerned': 1})
+19,2011-04-27,qa_pair19,{'neutral': 1},Counter({'Concerned': 1})
+20,2011-04-27,qa_pair20,"{'gratitude': 1, 'approval': 1}","Counter({'Concerned': 1, 'Neutral': 1})"
+21,2011-04-27,qa_pair21,"{'joy': 1, 'gratitude': 2}","Counter({'Pessimism': 1, 'Neutral': 1})"
+22,2011-06-22,opening_remark,"{'neutral': 4, 'gratitude': 1}",Counter({'Neutral': 4})
+23,2011-06-22,qa_pair1,{'remorse': 1},Counter({'Neutral': 1})
+24,2011-06-22,qa_pair2,{'neutral': 2},Counter({'Pessimism': 1})
+25,2011-06-22,qa_pair3,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 2})
+26,2011-06-22,qa_pair4,{'neutral': 1},Counter({'Uncertain': 1})
+27,2011-06-22,qa_pair5,"{'neutral': 1, 'disapproval': 1}",Counter({'Neutral': 1})
+28,2011-06-22,qa_pair6,{'neutral': 2},"Counter({'Uncertain': 1, 'Optimism': 1})"
+29,2011-06-22,qa_pair7,{'neutral': 2},Counter({'Concerned': 2})
+30,2011-06-22,qa_pair8,"{'curiosity': 1, 'neutral': 2}","Counter({'Pessimism': 1, 'Concerned': 1})"
+31,2011-06-22,qa_pair9,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+32,2011-06-22,qa_pair10,{'neutral': 2},Counter({'Uncertain': 1})
+33,2011-06-22,qa_pair11,{'curiosity': 1},Counter({'Optimism': 1})
+34,2011-06-22,qa_pair12,{'neutral': 2},"Counter({'Uncertain': 1, 'Concerned': 1})"
+35,2011-06-22,qa_pair13,"{'neutral': 1, 'caring': 1}",Counter({'Uncertain': 1})
+36,2011-06-22,qa_pair14,{'neutral': 2},Counter({'Uncertain': 1})
+37,2011-06-22,qa_pair15,"{'curiosity': 1, 'realization': 1}",Counter({'Pessimism': 1})
+38,2011-06-22,qa_pair16,{'neutral': 1},Counter({'Uncertain': 1})
+39,2011-06-22,qa_pair17,"{'neutral': 2, 'gratitude': 1}","Counter({'Concerned': 1, 'Pessimism': 1})"
+40,2011-11-02,opening_remark,"{'neutral': 4, 'gratitude': 1}","Counter({'Neutral': 3, 'Optimism': 1})"
+41,2011-11-02,qa_pair1,{'neutral': 2},Counter({'Concerned': 1})
+42,2011-11-02,qa_pair2,{'neutral': 1},Counter({'Neutral': 1})
+43,2011-11-02,qa_pair3,{'neutral': 2},Counter({'Concerned': 2})
+44,2011-11-02,qa_pair4,{'neutral': 1},Counter({'Uncertain': 1})
+45,2011-11-02,qa_pair5,{'approval': 1},Counter({'Neutral': 1})
+46,2011-11-02,qa_pair6,{'curiosity': 1},Counter({'Neutral': 1})
+47,2011-11-02,qa_pair7,{'neutral': 2},"Counter({'Concerned': 1, 'Neutral': 1})"
+48,2011-11-02,qa_pair8,"{'curiosity': 1, 'neutral': 1}",Counter({'Pessimism': 1})
+49,2011-11-02,qa_pair9,"{'curiosity': 1, 'neutral': 2}","Counter({'Pessimism': 1, 'Concerned': 1})"
+50,2011-11-02,qa_pair10,{'neutral': 1},Counter({'Uncertain': 1})
+51,2011-11-02,qa_pair11,{'neutral': 1},Counter({'Uncertain': 1})
+52,2011-11-02,qa_pair12,{'neutral': 2},Counter({'Concerned': 1})
+53,2011-11-02,qa_pair13,"{'neutral': 1, 'optimism': 1}",Counter({'Pessimism': 1})
+54,2011-11-02,qa_pair14,"{'curiosity': 1, 'optimism': 1}",Counter({'Pessimism': 2})
+55,2011-11-02,qa_pair15,"{'curiosity': 1, 'neutral': 1}",Counter({'Neutral': 1})
+56,2011-11-02,qa_pair16,{'neutral': 2},Counter({'Pessimism': 1})
+57,2011-11-02,qa_pair17,"{'neutral': 1, 'approval': 1}",Counter({'Neutral': 1})
+58,2011-11-02,qa_pair18,{'neutral': 2},Counter({'Optimism': 1})
+59,2011-11-02,qa_pair19,{'neutral': 1},Counter({'Neutral': 1})
+60,2012-01-25,opening_remark,"{'neutral': 7, 'gratitude': 1}","Counter({'Neutral': 3, 'Optimism': 3})"
+61,2012-01-25,qa_pair1,"{'gratitude': 1, 'neutral': 1}",Counter({'Neutral': 1})
+62,2012-01-25,qa_pair2,"{'confusion': 1, 'approval': 1}",Counter({'Uncertain': 1})
+63,2012-01-25,qa_pair3,"{'curiosity': 1, 'neutral': 1}",Counter({'Neutral': 2})
+64,2012-01-25,qa_pair4,"{'curiosity': 1, 'neutral': 1, 'optimism': 1}",Counter({'Uncertain': 2})
+65,2012-01-25,qa_pair5,{'neutral': 2},Counter({'Neutral': 1})
+66,2012-01-25,qa_pair6,"{'curiosity': 1, 'neutral': 1}","Counter({'Pessimism': 1, 'Neutral': 1})"
+67,2012-01-25,qa_pair7,{'neutral': 2},Counter({'Concerned': 2})
+68,2012-01-25,qa_pair8,{'neutral': 2},"Counter({'Concerned': 1, 'Neutral': 1})"
+69,2012-01-25,qa_pair9,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+70,2012-01-25,qa_pair10,{'neutral': 2},"Counter({'Optimism': 1, 'Uncertain': 1})"
+71,2012-01-25,qa_pair11,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+72,2012-01-25,qa_pair12,{'neutral': 2},"Counter({'Critical': 1, 'Neutral': 1})"
+73,2012-01-25,qa_pair13,"{'curiosity': 1, 'neutral': 1, 'disapproval': 1}",Counter({'Neutral': 2})
+74,2012-01-25,qa_pair14,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 2})
+75,2012-01-25,qa_pair15,{'neutral': 2},Counter({'Concerned': 1})
+76,2012-01-25,qa_pair16,{'neutral': 1},Counter({'Concerned': 1})
+77,2012-01-25,qa_pair17,{'neutral': 3},"Counter({'Neutral': 1, 'Uncertain': 1, 'Pessimism': 1})"
+78,2012-01-25,qa_pair18,"{'curiosity': 1, 'gratitude': 1}","Counter({'Neutral': 1, 'Concerned': 1})"
+79,2012-04-25,opening_remark,"{'neutral': 2, 'gratitude': 1}",Counter({'Neutral': 2})
+80,2012-04-25,qa_pair1,"{'gratitude': 1, 'neutral': 1}",Counter({'Pessimism': 1})
+81,2012-04-25,qa_pair2,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+82,2012-04-25,qa_pair3,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+83,2012-04-25,qa_pair4,"{'neutral': 1, 'approval': 1}",Counter({'Concerned': 1})
+84,2012-04-25,qa_pair5,{'neutral': 2},"Counter({'Pessimism': 1, 'Neutral': 1})"
+85,2012-04-25,qa_pair6,{'curiosity': 1},Counter({'Concerned': 1})
+86,2012-04-25,qa_pair7,{'neutral': 1},Counter({'Pessimism': 1})
+87,2012-04-25,qa_pair8,{'neutral': 2},"Counter({'Concerned': 1, 'Neutral': 1})"
+88,2012-04-25,qa_pair9,"{'curiosity': 1, 'neutral': 1}","Counter({'Pessimism': 1, 'Neutral': 1})"
+89,2012-04-25,qa_pair10,"{'curiosity': 1, 'neutral': 1}",Counter({'Neutral': 1})
+90,2012-04-25,qa_pair11,"{'gratitude': 1, 'neutral': 2}",Counter({'Concerned': 2})
+91,2012-04-25,qa_pair12,{'neutral': 2},Counter({'Optimism': 1})
+92,2012-04-25,qa_pair13,{'neutral': 2},Counter({'Uncertain': 1})
+93,2012-04-25,qa_pair14,{'neutral': 2},Counter({'Concerned': 1})
+94,2012-04-25,qa_pair15,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+95,2012-04-25,qa_pair16,"{'curiosity': 1, 'optimism': 1}",Counter({'Concerned': 1})
+96,2012-04-25,qa_pair17,"{'neutral': 2, 'approval': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+97,2012-04-25,qa_pair18,{'neutral': 2},Counter({'Uncertain': 2})
+98,2012-04-25,qa_pair19,"{'curiosity': 1, 'gratitude': 1}",Counter({'Neutral': 1})
+99,2012-06-20,opening_remark,"{'neutral': 2, 'gratitude': 1}",Counter({'Neutral': 3})
+100,2012-06-20,qa_pair1,{'neutral': 2},"Counter({'Uncertain': 1, 'Pessimism': 1})"
+101,2012-06-20,qa_pair2,{'disappointment': 1},Counter({'Pessimism': 1})
+102,2012-06-20,qa_pair3,{'neutral': 1},Counter({'Neutral': 1})
+103,2012-06-20,qa_pair4,{'curiosity': 1},Counter({'Pessimism': 1})
+104,2012-06-20,qa_pair5,{'gratitude': 1},Counter({'Neutral': 1})
+105,2012-06-20,qa_pair6,{'curiosity': 1},Counter({'Uncertain': 1})
+106,2012-06-20,qa_pair7,{'neutral': 2},Counter({'Pessimism': 1})
+107,2012-06-20,qa_pair8,{'neutral': 1},Counter({'Pessimism': 1})
+108,2012-06-20,qa_pair9,"{'curiosity': 1, 'neutral': 1}",Counter({'Pessimism': 1})
+109,2012-06-20,qa_pair10,{'confusion': 1},Counter({'Concerned': 1})
+110,2012-06-20,qa_pair11,"{'neutral': 1, 'disappointment': 1}",Counter({'Concerned': 1})
+111,2012-06-20,qa_pair12,"{'curiosity': 1, 'neutral': 1}",Counter({'Pessimism': 2})
+112,2012-06-20,qa_pair13,{'gratitude': 1},Counter({'Optimism': 1})
+113,2012-06-20,qa_pair14,{'neutral': 1},Counter({'Neutral': 1})
+114,2012-06-20,qa_pair15,"{'curiosity': 1, 'neutral': 1}",Counter({'Pessimism': 1})
+115,2012-06-20,qa_pair16,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Pessimism': 1})"
+116,2012-06-20,qa_pair17,{'optimism': 2},Counter({'Concerned': 1})
+117,2012-06-20,qa_pair18,{'curiosity': 1},Counter({'Concerned': 1})
+118,2012-06-20,qa_pair19,"{'curiosity': 1, 'neutral': 1}","Counter({'Neutral': 1, 'Uncertain': 1})"
+119,2012-06-20,qa_pair20,{'gratitude': 1},Counter({'Pessimism': 1})
+120,2012-06-20,qa_pair21,{'disapproval': 1},Counter({'Neutral': 1})
+121,2012-06-20,qa_pair22,{'neutral': 1},Counter({'Concerned': 1})
+122,2012-06-20,qa_pair23,{'admiration': 1},Counter({'Neutral': 1})
+123,2012-09-13,opening_remark,"{'neutral': 5, 'gratitude': 1}","Counter({'Concerned': 2, 'Optimism': 1, 'Pessimism': 1})"
+124,2012-09-13,qa_pair1,{'neutral': 1},Counter({'Neutral': 1})
+125,2012-09-13,qa_pair2,{'neutral': 1},Counter({'Uncertain': 1})
+126,2012-09-13,qa_pair3,{'neutral': 2},Counter({'Critical': 1})
+127,2012-09-13,qa_pair4,"{'neutral': 1, 'disapproval': 1}",Counter({'Uncertain': 1})
+128,2012-09-13,qa_pair5,{'neutral': 2},Counter({'Pessimism': 1})
+129,2012-09-13,qa_pair6,{'curiosity': 1},Counter({'Concerned': 1})
+130,2012-09-13,qa_pair7,{'neutral': 2},Counter({'Concerned': 2})
+131,2012-09-13,qa_pair8,{'neutral': 2},Counter({'Uncertain': 1})
+132,2012-09-13,qa_pair9,"{'neutral': 1, 'optimism': 1}",Counter({'Uncertain': 1})
+133,2012-09-13,qa_pair10,{'neutral': 2},Counter({'Pessimism': 1})
+134,2012-09-13,qa_pair11,"{'curiosity': 1, 'optimism': 1}",Counter({'Neutral': 2})
+135,2012-09-13,qa_pair12,{'curiosity': 1},Counter({'Uncertain': 1})
+136,2012-09-13,qa_pair13,"{'curiosity': 1, 'neutral': 1}","Counter({'Concerned': 1, 'Optimism': 1})"
+137,2012-09-13,qa_pair14,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+138,2012-09-13,qa_pair15,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+139,2012-09-13,qa_pair16,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+140,2012-09-13,qa_pair17,{'neutral': 2},"Counter({'Concerned': 1, 'Optimism': 1})"
+141,2012-09-13,qa_pair18,{'optimism': 2},"Counter({'Neutral': 1, 'Uncertain': 1})"
+142,2012-09-13,qa_pair19,"{'neutral': 1, 'approval': 1}",Counter({'Concerned': 1})
+143,2012-09-13,qa_pair20,{'neutral': 2},Counter({'Uncertain': 1})
+144,2012-09-13,qa_pair21,"{'approval': 1, 'gratitude': 1}",Counter({'Concerned': 1})
+145,2012-12-12,opening_remark,"{'neutral': 6, 'gratitude': 1}","Counter({'Optimism': 3, 'Concerned': 1, 'Pessimism': 1})"
+146,2012-12-12,qa_pair1,{'neutral': 2},"Counter({'Concerned': 1, 'Uncertain': 1})"
+147,2012-12-12,qa_pair2,"{'approval': 1, 'curiosity': 1, 'confusion': 1}","Counter({'Concerned': 1, 'Optimism': 1})"
+148,2012-12-12,qa_pair3,"{'curiosity': 1, 'neutral': 2}","Counter({'Neutral': 1, 'Uncertain': 1})"
+149,2012-12-12,qa_pair4,{'curiosity': 2},"Counter({'Uncertain': 1, 'Pessimism': 1})"
+150,2012-12-12,qa_pair5,"{'curiosity': 1, 'neutral': 1}","Counter({'Neutral': 1, 'Uncertain': 1})"
+151,2012-12-12,qa_pair6,"{'gratitude': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Optimism': 1})"
+152,2012-12-12,qa_pair7,{'neutral': 1},Counter({'Uncertain': 1})
+153,2012-12-12,qa_pair8,"{'curiosity': 1, 'neutral': 1, 'optimism': 1}","Counter({'Pessimism': 1, 'Concerned': 1})"
+154,2012-12-12,qa_pair9,"{'curiosity': 1, 'neutral': 1}",Counter({'Neutral': 2})
+155,2012-12-12,qa_pair10,{'neutral': 2},"Counter({'Pessimism': 1, 'Concerned': 1})"
+156,2012-12-12,qa_pair11,{'neutral': 2},Counter({'Uncertain': 1})
+157,2012-12-12,qa_pair12,"{'curiosity': 1, 'neutral': 1}",Counter({'Neutral': 2})
+158,2012-12-12,qa_pair13,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 2})
+159,2012-12-12,qa_pair14,{'neutral': 3},"Counter({'Neutral': 1, 'Optimism': 1})"
+160,2012-12-12,qa_pair15,"{'approval': 1, 'neutral': 1}",Counter({'Pessimism': 1})
+161,2012-12-12,qa_pair16,"{'curiosity': 1, 'neutral': 1}",Counter({'Pessimism': 1})
+162,2012-12-12,qa_pair17,{'neutral': 1},Counter({'Uncertain': 1})
+163,2012-12-12,qa_pair18,"{'curiosity': 1, 'approval': 1, 'neutral': 1}","Counter({'Neutral': 1, 'Uncertain': 1})"
+164,2012-12-12,qa_pair19,{'optimism': 2},Counter({'Concerned': 1})
+165,2012-12-12,qa_pair20,{'neutral': 2},Counter({'Concerned': 2})
+166,2012-12-12,qa_pair21,"{'curiosity': 1, 'disappointment': 1}",Counter({'Concerned': 2})
+167,2013-03-20,opening_remark,"{'neutral': 4, 'gratitude': 1}","Counter({'Neutral': 2, 'Optimism': 1, 'Concerned': 1})"
+168,2013-03-20,qa_pair1,{'neutral': 2},"Counter({'Concerned': 1, 'Neutral': 1})"
+169,2013-03-20,qa_pair2,{'neutral': 2},Counter({'Neutral': 1})
+170,2013-03-20,qa_pair3,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 2})
+171,2013-03-20,qa_pair4,"{'curiosity': 1, 'optimism': 1, 'approval': 1}","Counter({'Concerned': 1, 'Uncertain': 1})"
+172,2013-03-20,qa_pair5,{'neutral': 2},Counter({'Neutral': 1})
+173,2013-03-20,qa_pair6,"{'curiosity': 1, 'confusion': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+174,2013-03-20,qa_pair7,{'approval': 1},Counter({'Uncertain': 1})
+175,2013-03-20,qa_pair8,{'neutral': 2},"Counter({'Neutral': 1, 'Uncertain': 1})"
+176,2013-03-20,qa_pair9,"{'gratitude': 1, 'neutral': 1}",Counter({'Concerned': 1})
+177,2013-03-20,qa_pair10,"{'curiosity': 1, 'neutral': 1}",Counter({'Optimism': 1})
+178,2013-03-20,qa_pair11,"{'curiosity': 1, 'approval': 1}",Counter({'Concerned': 1})
+179,2013-03-20,qa_pair12,"{'curiosity': 1, 'neutral': 2}",Counter({'Concerned': 2})
+180,2013-03-20,qa_pair13,"{'confusion': 1, 'neutral': 2}","Counter({'Uncertain': 1, 'Concerned': 1})"
+181,2013-03-20,qa_pair14,"{'curiosity': 1, 'confusion': 1}",Counter({'Uncertain': 1})
+182,2013-03-20,qa_pair15,{'curiosity': 1},Counter({'Neutral': 1})
+183,2013-03-20,qa_pair16,{'curiosity': 1},Counter({'Concerned': 1})
+184,2013-03-20,qa_pair17,{'curiosity': 1},Counter({'Concerned': 1})
+185,2013-03-20,qa_pair18,"{'neutral': 1, 'confusion': 1}",Counter({'Uncertain': 2})
+186,2013-03-20,qa_pair19,"{'neutral': 1, 'approval': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+187,2013-03-20,qa_pair20,"{'curiosity': 1, 'gratitude': 1}",Counter({'Uncertain': 1})
+188,2013-06-19,opening_remark,"{'neutral': 5, 'gratitude': 2}","Counter({'Optimism': 3, 'Neutral': 2})"
+189,2013-06-19,qa_pair1,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+190,2013-06-19,qa_pair2,"{'neutral': 1, 'optimism': 1}",Counter({'Optimism': 2})
+191,2013-06-19,qa_pair3,"{'curiosity': 1, 'approval': 1}",Counter({'Concerned': 1})
+192,2013-06-19,qa_pair4,{'curiosity': 1},Counter({'Concerned': 1})
+193,2013-06-19,qa_pair5,{'curiosity': 1},Counter({'Neutral': 1})
+194,2013-06-19,qa_pair6,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+195,2013-06-19,qa_pair7,{'neutral': 4},"Counter({'Uncertain': 1, 'Concerned': 1, 'Optimism': 1})"
+196,2013-06-19,qa_pair8,"{'approval': 1, 'optimism': 1}",Counter({'Concerned': 1})
+197,2013-06-19,qa_pair9,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Optimism': 1})"
+198,2013-06-19,qa_pair10,{'neutral': 1},Counter({'Uncertain': 1})
+199,2013-06-19,qa_pair11,{'neutral': 2},Counter({'Pessimism': 1})
+200,2013-06-19,qa_pair12,"{'curiosity': 2, 'neutral': 1}","Counter({'Concerned': 1, 'Neutral': 1, 'Uncertain': 1})"
+201,2013-06-19,qa_pair13,"{'gratitude': 1, 'neutral': 1}",Counter({'Uncertain': 2})
+202,2013-06-19,qa_pair14,{'disapproval': 2},Counter({'Pessimism': 2})
+203,2013-06-19,qa_pair15,"{'curiosity': 1, 'neutral': 2}","Counter({'Uncertain': 1, 'Pessimism': 1})"
+204,2013-06-19,qa_pair16,{'optimism': 1},Counter({'Optimism': 1})
+205,2013-06-19,qa_pair17,"{'curiosity': 1, 'approval': 2}","Counter({'Uncertain': 1, 'Pessimism': 1})"
+206,2013-06-19,qa_pair18,{'curiosity': 1},Counter({'Uncertain': 1})
+207,2013-09-18,opening_remark,"{'neutral': 7, 'gratitude': 1}","Counter({'Neutral': 2, 'Optimism': 2, 'Pessimism': 2})"
+208,2013-09-18,qa_pair1,"{'curiosity': 1, 'approval': 1}","Counter({'Neutral': 1, 'Pessimism': 1})"
+209,2013-09-18,qa_pair2,{'neutral': 2},"Counter({'Uncertain': 1, 'Neutral': 1})"
+210,2013-09-18,qa_pair3,{'neutral': 2},Counter({'Uncertain': 2})
+211,2013-09-18,qa_pair4,{'curiosity': 1},Counter({'Neutral': 1})
+212,2013-09-18,qa_pair5,{'neutral': 1},Counter({'Concerned': 1})
+213,2013-09-18,qa_pair6,"{'curiosity': 1, 'neutral': 1}",Counter({'Pessimism': 1})
+214,2013-09-18,qa_pair7,{'neutral': 2},Counter({'Neutral': 2})
+215,2013-09-18,qa_pair8,{'neutral': 3},Counter({'Uncertain': 2})
+216,2013-09-18,qa_pair9,{'neutral': 2},"Counter({'Uncertain': 1, 'Neutral': 1})"
+217,2013-09-18,qa_pair10,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+218,2013-09-18,qa_pair11,"{'approval': 1, 'neutral': 2}","Counter({'Concerned': 1, 'Pessimism': 1})"
+219,2013-09-18,qa_pair12,"{'neutral': 2, 'optimism': 1}","Counter({'Pessimism': 1, 'Neutral': 1})"
+220,2013-09-18,qa_pair13,{'neutral': 1},Counter({'Concerned': 1})
+221,2013-09-18,qa_pair14,{'neutral': 1},Counter({'Concerned': 1})
+222,2013-09-18,qa_pair15,"{'curiosity': 1, 'approval': 1}","Counter({'Neutral': 1, 'Concerned': 1})"
+223,2013-09-18,qa_pair16,{'curiosity': 1},Counter({'Concerned': 1})
+224,2013-09-18,qa_pair17,{'gratitude': 1},Counter({'Concerned': 1})
+225,2013-09-18,qa_pair18,{'neutral': 1},Counter({'Uncertain': 1})
+226,2013-09-18,qa_pair19,"{'curiosity': 1, 'neutral': 1}","Counter({'Pessimism': 1, 'Neutral': 1})"
+227,2013-09-18,qa_pair20,"{'curiosity': 1, 'gratitude': 1}","Counter({'Neutral': 1, 'Concerned': 1})"
+228,2013-12-18,opening_remark,"{'neutral': 5, 'gratitude': 1}","Counter({'Neutral': 2, 'Concerned': 2, 'Optimism': 1})"
+229,2013-12-18,qa_pair1,{'curiosity': 1},Counter({'Uncertain': 1})
+230,2013-12-18,qa_pair2,"{'curiosity': 1, 'neutral': 2}","Counter({'Uncertain': 1, 'Neutral': 1})"
+231,2013-12-18,qa_pair3,{'approval': 1},Counter({'Uncertain': 1})
+232,2013-12-18,qa_pair4,{'neutral': 2},"Counter({'Critical': 1, 'Neutral': 1})"
+233,2013-12-18,qa_pair5,{'neutral': 2},Counter({'Pessimism': 2})
+234,2013-12-18,qa_pair6,{'neutral': 2},"Counter({'Uncertain': 1, 'Concerned': 1})"
+235,2013-12-18,qa_pair7,{'neutral': 2},"Counter({'Concerned': 1, 'Uncertain': 1})"
+236,2013-12-18,qa_pair8,{'neutral': 1},Counter({'Neutral': 1})
+237,2013-12-18,qa_pair9,"{'curiosity': 1, 'neutral': 1}","Counter({'Neutral': 1, 'Uncertain': 1})"
+238,2013-12-18,qa_pair10,{'neutral': 2},"Counter({'Neutral': 1, 'Concerned': 1})"
+239,2013-12-18,qa_pair11,"{'curiosity': 1, 'optimism': 1}",Counter({'Uncertain': 1})
+240,2013-12-18,qa_pair12,{'approval': 1},Counter({'Pessimism': 1})
+241,2013-12-18,qa_pair13,"{'confusion': 1, 'disappointment': 1}","Counter({'Uncertain': 1, 'Pessimism': 1})"
+242,2013-12-18,qa_pair14,"{'gratitude': 1, 'neutral': 1}",Counter({'Pessimism': 1})
+243,2013-12-18,qa_pair15,{'neutral': 2},"Counter({'Concerned': 1, 'Optimism': 1})"
+244,2013-12-18,qa_pair16,"{'curiosity': 1, 'optimism': 1, 'approval': 2}","Counter({'Neutral': 1, 'Concerned': 1, 'Pessimism': 1})"
+245,2013-12-18,qa_pair17,{'curiosity': 1},Counter({'Neutral': 1})
+246,2013-12-18,qa_pair18,"{'approval': 1, 'optimism': 1}",Counter({'Concerned': 1})
+247,2013-12-18,qa_pair19,"{'curiosity': 1, 'neutral': 2}","Counter({'Neutral': 1, 'Concerned': 1, 'Uncertain': 1})"
+248,2013-12-18,qa_pair20,"{'curiosity': 1, 'approval': 1}","Counter({'Neutral': 1, 'Uncertain': 1})"
+249,2013-12-18,qa_pair21,{'neutral': 2},Counter({'Pessimism': 1})
+250,2013-12-18,qa_pair22,"{'admiration': 1, 'optimism': 1}","Counter({'Concerned': 1, 'Neutral': 1})"
+251,2013-12-18,qa_pair23,"{'neutral': 1, 'gratitude': 1}","Counter({'Concerned': 1, 'Neutral': 1})"
+252,2014-03-19,opening_remark,"{'neutral': 5, 'gratitude': 1}","Counter({'Neutral': 3, 'Optimism': 2})"
+253,2014-03-19,qa_pair1,"{'curiosity': 1, 'neutral': 2}","Counter({'Concerned': 1, 'Uncertain': 1})"
+254,2014-03-19,qa_pair2,{'neutral': 3},"Counter({'Neutral': 1, 'Uncertain': 1})"
+255,2014-03-19,qa_pair3,{'neutral': 2},"Counter({'Uncertain': 1, 'Neutral': 1})"
+256,2014-03-19,qa_pair4,"{'confusion': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+257,2014-03-19,qa_pair5,{'gratitude': 1},Counter({'Neutral': 1})
+258,2014-03-19,qa_pair6,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+259,2014-03-19,qa_pair7,"{'confusion': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+260,2014-03-19,qa_pair8,{'neutral': 2},"Counter({'Concerned': 1, 'Neutral': 1})"
+261,2014-03-19,qa_pair9,{'neutral': 3},Counter({'Neutral': 2})
+262,2014-03-19,qa_pair10,{'neutral': 1},Counter({'Pessimism': 1})
+263,2014-03-19,qa_pair11,{'curiosity': 1},Counter({'Concerned': 1})
+264,2014-03-19,qa_pair12,{'neutral': 2},Counter({'Pessimism': 1})
+265,2014-03-19,qa_pair13,{'approval': 1},Counter({'Neutral': 1})
+266,2014-03-19,qa_pair14,{'curiosity': 1},Counter({'Concerned': 1})
+267,2014-03-19,qa_pair15,{'curiosity': 1},Counter({'Concerned': 1})
+268,2014-06-18,opening_remark,"{'neutral': 4, 'gratitude': 1}","Counter({'Optimism': 3, 'Neutral': 1})"
+269,2014-06-18,qa_pair1,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+270,2014-06-18,qa_pair2,{'curiosity': 1},Counter({'Uncertain': 1})
+271,2014-06-18,qa_pair3,"{'curiosity': 1, 'neutral': 2}","Counter({'Pessimism': 1, 'Neutral': 1})"
+272,2014-06-18,qa_pair4,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 2})
+273,2014-06-18,qa_pair5,"{'curiosity': 1, 'neutral': 1}",Counter({'Pessimism': 1})
+274,2014-06-18,qa_pair6,"{'curiosity': 1, 'approval': 1}","Counter({'Concerned': 1, 'Pessimism': 1})"
+275,2014-06-18,qa_pair7,{'curiosity': 1},Counter({'Uncertain': 1})
+276,2014-06-18,qa_pair8,"{'neutral': 1, 'optimism': 1}",Counter({'Neutral': 1})
+277,2014-06-18,qa_pair9,"{'confusion': 1, 'remorse': 1}",Counter({'Concerned': 1})
+278,2014-06-18,qa_pair10,{'neutral': 2},Counter({'Uncertain': 2})
+279,2014-06-18,qa_pair11,{'curiosity': 1},Counter({'Uncertain': 1})
+280,2014-06-18,qa_pair12,"{'gratitude': 1, 'neutral': 2}","Counter({'Pessimism': 1, 'Uncertain': 1})"
+281,2014-06-18,qa_pair13,{'curiosity': 1},Counter({'Neutral': 1})
+282,2014-06-18,qa_pair14,"{'gratitude': 1, 'approval': 1}",Counter({'Neutral': 1})
+283,2014-06-18,qa_pair15,{'neutral': 2},Counter({'Neutral': 1})
+284,2014-06-18,qa_pair16,{'gratitude': 1},Counter({'Neutral': 1})
+285,2014-09-17,opening_remark,"{'neutral': 8, 'gratitude': 1}","Counter({'Neutral': 4, 'Optimism': 1, 'Concerned': 1})"
+286,2014-09-17,qa_pair1,"{'gratitude': 1, 'neutral': 2}","Counter({'Neutral': 1, 'Uncertain': 1})"
+287,2014-09-17,qa_pair2,"{'gratitude': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+288,2014-09-17,qa_pair3,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+289,2014-09-17,qa_pair4,{'neutral': 3},"Counter({'Uncertain': 1, 'Concerned': 1})"
+290,2014-09-17,qa_pair5,"{'curiosity': 1, 'confusion': 1}",Counter({'Uncertain': 1})
+291,2014-09-17,qa_pair6,"{'curiosity': 1, 'neutral': 2}","Counter({'Pessimism': 1, 'Uncertain': 1})"
+292,2014-09-17,qa_pair7,{'curiosity': 1},Counter({'Concerned': 1})
+293,2014-09-17,qa_pair8,"{'curiosity': 1, 'optimism': 1}",Counter({'Pessimism': 1})
+294,2014-09-17,qa_pair9,"{'curiosity': 1, 'neutral': 1}",Counter({'Neutral': 1})
+295,2014-09-17,qa_pair10,{'neutral': 2},"Counter({'Neutral': 1, 'Concerned': 1})"
+296,2014-09-17,qa_pair11,{'curiosity': 1},Counter({'Concerned': 1})
+297,2014-09-17,qa_pair12,{'gratitude': 1},Counter({'Uncertain': 1})
+298,2014-12-17,opening_remark,"{'neutral': 5, 'gratitude': 1}","Counter({'Neutral': 3, 'Optimism': 2})"
+299,2014-12-17,qa_pair1,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 2})
+300,2014-12-17,qa_pair2,{'neutral': 1},Counter({'Uncertain': 1})
+301,2014-12-17,qa_pair3,"{'gratitude': 1, 'neutral': 1}",Counter({'Concerned': 2})
+302,2014-12-17,qa_pair4,{'neutral': 2},Counter({'Uncertain': 2})
+303,2014-12-17,qa_pair5,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+304,2014-12-17,qa_pair6,{'neutral': 2},Counter({'Neutral': 1})
+305,2014-12-17,qa_pair7,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+306,2014-12-17,qa_pair8,"{'curiosity': 1, 'neutral': 2}","Counter({'Neutral': 1, 'Pessimism': 1})"
+307,2014-12-17,qa_pair9,"{'curiosity': 1, 'neutral': 2}",Counter({'Uncertain': 2})
+308,2014-12-17,qa_pair10,"{'curiosity': 1, 'approval': 1}",Counter({'Concerned': 2})
+309,2014-12-17,qa_pair11,"{'gratitude': 1, 'optimism': 1}",Counter({'Concerned': 2})
+310,2014-12-17,qa_pair12,"{'gratitude': 1, 'neutral': 1}",Counter({'Concerned': 1})
+311,2014-12-17,qa_pair13,"{'gratitude': 1, 'neutral': 1}",Counter({'Concerned': 1})
+312,2014-12-17,qa_pair14,"{'approval': 1, 'neutral': 1}",Counter({'Concerned': 1})
+313,2014-12-17,qa_pair15,"{'curiosity': 1, 'optimism': 1}",Counter({'Neutral': 1})
+314,2015-03-18,opening_remark,"{'neutral': 5, 'gratitude': 1}","Counter({'Neutral': 2, 'Optimism': 2, 'Uncertain': 1})"
+315,2015-03-18,qa_pair1,{'neutral': 2},Counter({'Pessimism': 1})
+316,2015-03-18,qa_pair2,{'neutral': 2},Counter({'Uncertain': 2})
+317,2015-03-18,qa_pair3,{'curiosity': 1},Counter({'Uncertain': 1})
+318,2015-03-18,qa_pair4,{'neutral': 2},Counter({'Pessimism': 1})
+319,2015-03-18,qa_pair5,{'neutral': 2},"Counter({'Uncertain': 1, 'Neutral': 1})"
+320,2015-03-18,qa_pair6,{'neutral': 2},Counter({'Neutral': 1})
+321,2015-03-18,qa_pair7,{'neutral': 2},Counter({'Concerned': 1})
+322,2015-03-18,qa_pair8,{'neutral': 3},"Counter({'Uncertain': 1, 'Neutral': 1})"
+323,2015-03-18,qa_pair9,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+324,2015-03-18,qa_pair10,{'approval': 1},Counter({'Concerned': 1})
+325,2015-03-18,qa_pair11,"{'neutral': 1, 'approval': 1}",Counter({'Concerned': 1})
+326,2015-03-18,qa_pair12,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+327,2015-03-18,qa_pair13,"{'confusion': 1, 'neutral': 1}",Counter({'Concerned': 1})
+328,2015-03-18,qa_pair14,{'neutral': 2},"Counter({'Uncertain': 1, 'Neutral': 1})"
+329,2015-03-18,qa_pair15,{'approval': 1},Counter({'Pessimism': 1})
+330,2015-03-18,qa_pair16,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+331,2015-06-17,opening_remark,"{'neutral': 5, 'gratitude': 1}","Counter({'Neutral': 3, 'Optimism': 1, 'Uncertain': 1})"
+332,2015-06-17,qa_pair1,{'neutral': 2},"Counter({'Uncertain': 1, 'Concerned': 1})"
+333,2015-06-17,qa_pair2,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 2})
+334,2015-06-17,qa_pair3,"{'gratitude': 1, 'neutral': 1}","Counter({'Neutral': 1, 'Concerned': 1})"
+335,2015-06-17,qa_pair4,"{'curiosity': 1, 'neutral': 1}","Counter({'Neutral': 1, 'Uncertain': 1})"
+336,2015-06-17,qa_pair5,{'neutral': 3},"Counter({'Uncertain': 1, 'Concerned': 1})"
+337,2015-06-17,qa_pair6,{'neutral': 2},Counter({'Uncertain': 1})
+338,2015-06-17,qa_pair7,"{'curiosity': 1, 'neutral': 1}",Counter({'Neutral': 1})
+339,2015-06-17,qa_pair8,"{'neutral': 1, 'optimism': 1}",Counter({'Uncertain': 1})
+340,2015-06-17,qa_pair9,{'gratitude': 1},Counter({'Concerned': 1})
+341,2015-06-17,qa_pair10,{'curiosity': 1},Counter({'Concerned': 1})
+342,2015-06-17,qa_pair11,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+343,2015-06-17,qa_pair12,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+344,2015-06-17,qa_pair13,"{'gratitude': 1, 'neutral': 1}",Counter({'Optimism': 1})
+345,2015-06-17,qa_pair14,{'neutral': 1},Counter({'Pessimism': 1})
+346,2015-06-17,qa_pair15,{'neutral': 1},Counter({'Uncertain': 1})
+347,2015-06-17,qa_pair16,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+348,2015-06-17,qa_pair17,{'neutral': 1},Counter({'Concerned': 1})
+349,2015-09-17,opening_remark,"{'neutral': 6, 'gratitude': 1}","Counter({'Neutral': 3, 'Uncertain': 2})"
+350,2015-09-17,qa_pair1,{'neutral': 2},Counter({'Uncertain': 1})
+351,2015-09-17,qa_pair2,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+352,2015-09-17,qa_pair3,{'neutral': 2},Counter({'Concerned': 1})
+353,2015-09-17,qa_pair4,"{'curiosity': 1, 'neutral': 2}",Counter({'Neutral': 2})
+354,2015-09-17,qa_pair5,"{'curiosity': 1, 'neutral': 1}","Counter({'Optimism': 1, 'Concerned': 1})"
+355,2015-09-17,qa_pair6,"{'curiosity': 1, 'disapproval': 1}",Counter({'Neutral': 1})
+356,2015-09-17,qa_pair7,{'neutral': 1},Counter({'Uncertain': 1})
+357,2015-09-17,qa_pair8,"{'curiosity': 1, 'neutral': 2}",Counter({'Concerned': 2})
+358,2015-09-17,qa_pair9,{'curiosity': 1},Counter({'Concerned': 1})
+359,2015-09-17,qa_pair10,{'neutral': 1},Counter({'Uncertain': 1})
+360,2015-09-17,qa_pair11,{'neutral': 1},Counter({'Uncertain': 1})
+361,2015-09-17,qa_pair12,{'neutral': 2},"Counter({'Uncertain': 1, 'Neutral': 1})"
+362,2015-09-17,qa_pair13,{'curiosity': 1},Counter({'Neutral': 1})
+363,2015-09-17,qa_pair14,"{'curiosity': 1, 'approval': 1}",Counter({'Optimism': 1})
+364,2015-09-17,qa_pair15,{'neutral': 1},Counter({'Pessimism': 1})
+365,2015-09-17,qa_pair16,{'curiosity': 1},Counter({'Neutral': 1})
+366,2015-09-17,qa_pair17,"{'curiosity': 1, 'neutral': 1}",Counter({'Neutral': 1})
+367,2015-12-16,opening_remark,"{'neutral': 7, 'gratitude': 2}","Counter({'Optimism': 4, 'Neutral': 2})"
+368,2015-12-16,qa_pair1,{'neutral': 2},"Counter({'Concerned': 1, 'Uncertain': 1})"
+369,2015-12-16,qa_pair2,"{'curiosity': 1, 'neutral': 2}",Counter({'Neutral': 2})
+370,2015-12-16,qa_pair3,{'neutral': 3},Counter({'Concerned': 2})
+371,2015-12-16,qa_pair4,"{'curiosity': 1, 'neutral': 2}","Counter({'Pessimism': 1, 'Concerned': 1})"
+372,2015-12-16,qa_pair5,{'neutral': 2},"Counter({'Uncertain': 1, 'Neutral': 1})"
+373,2015-12-16,qa_pair6,"{'confusion': 1, 'curiosity': 1}","Counter({'Neutral': 1, 'Optimism': 1})"
+374,2015-12-16,qa_pair7,{'neutral': 2},"Counter({'Uncertain': 1, 'Neutral': 1})"
+375,2015-12-16,qa_pair8,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+376,2015-12-16,qa_pair9,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+377,2015-12-16,qa_pair10,{'neutral': 2},Counter({'Neutral': 1})
+378,2015-12-16,qa_pair11,{'curiosity': 1},Counter({'Concerned': 1})
+379,2015-12-16,qa_pair12,{'neutral': 2},Counter({'Uncertain': 1})
+380,2015-12-16,qa_pair13,{'neutral': 2},Counter({'Neutral': 1})
+381,2015-12-16,qa_pair14,{'neutral': 1},Counter({'Uncertain': 1})
+382,2015-12-16,qa_pair15,{'neutral': 2},"Counter({'Pessimism': 1, 'Concerned': 1})"
+383,2015-12-16,qa_pair16,"{'curiosity': 1, 'caring': 1}",Counter({'Concerned': 1})
+384,2015-12-16,qa_pair17,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+385,2016-03-16,opening_remark,"{'neutral': 5, 'gratitude': 1}","Counter({'Neutral': 2, 'Optimism': 2, 'Concerned': 1})"
+386,2016-03-16,qa_pair1,{'neutral': 3},"Counter({'Concerned': 1, 'Uncertain': 1})"
+387,2016-03-16,qa_pair2,{'neutral': 2},Counter({'Concerned': 1})
+388,2016-03-16,qa_pair3,"{'curiosity': 1, 'neutral': 1}",Counter({'Pessimism': 1})
+389,2016-03-16,qa_pair4,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+390,2016-03-16,qa_pair5,{'gratitude': 1},Counter({'Uncertain': 1})
+391,2016-03-16,qa_pair6,"{'confusion': 1, 'neutral': 1}",Counter({'Uncertain': 2})
+392,2016-03-16,qa_pair7,{'neutral': 2},"Counter({'Uncertain': 1, 'Neutral': 1})"
+393,2016-03-16,qa_pair8,{'disappointment': 1},Counter({'Concerned': 1})
+394,2016-03-16,qa_pair9,"{'curiosity': 2, 'neutral': 2}","Counter({'Pessimism': 1, 'Concerned': 1, 'Optimism': 1})"
+395,2016-03-16,qa_pair10,{'neutral': 2},Counter({'Neutral': 1})
+396,2016-03-16,qa_pair11,{'neutral': 1},Counter({'Concerned': 1})
+397,2016-03-16,qa_pair12,"{'curiosity': 2, 'neutral': 1}","Counter({'Concerned': 1, 'Optimism': 1})"
+398,2016-03-16,qa_pair13,{'neutral': 2},"Counter({'Uncertain': 1, 'Concerned': 1})"
+399,2016-03-16,qa_pair14,{'neutral': 2},Counter({'Uncertain': 1})
+400,2016-06-15,opening_remark,"{'neutral': 4, 'disappointment': 1, 'gratitude': 1}","Counter({'Neutral': 2, 'Uncertain': 1, 'Pessimism': 1, 'Optimism': 1})"
+401,2016-06-15,qa_pair1,{'gratitude': 1},Counter({'Uncertain': 1})
+402,2016-06-15,qa_pair2,{'neutral': 3},Counter({'Uncertain': 2})
+403,2016-06-15,qa_pair3,{'neutral': 2},"Counter({'Uncertain': 1, 'Neutral': 1})"
+404,2016-06-15,qa_pair4,{'neutral': 2},"Counter({'Pessimism': 1, 'Uncertain': 1})"
+405,2016-06-15,qa_pair5,"{'curiosity': 1, 'neutral': 1, 'confusion': 1}",Counter({'Concerned': 2})
+406,2016-06-15,qa_pair6,"{'neutral': 1, 'confusion': 1}","Counter({'Concerned': 1, 'Uncertain': 1})"
+407,2016-06-15,qa_pair7,{'curiosity': 1},Counter({'Neutral': 1})
+408,2016-06-15,qa_pair8,{'neutral': 2},"Counter({'Concerned': 1, 'Neutral': 1})"
+409,2016-06-15,qa_pair9,"{'curiosity': 1, 'surprise': 1}",Counter({'Uncertain': 1})
+410,2016-06-15,qa_pair10,{'curiosity': 1},Counter({'Concerned': 1})
+411,2016-06-15,qa_pair11,{'neutral': 2},Counter({'Neutral': 1})
+412,2016-06-15,qa_pair12,{'neutral': 2},Counter({'Uncertain': 1})
+413,2016-06-15,qa_pair13,{'neutral': 2},"Counter({'Concerned': 1, 'Uncertain': 1})"
+414,2016-06-15,qa_pair14,"{'curiosity': 1, 'gratitude': 1}",Counter({'Concerned': 1})
+415,2016-09-21,opening_remark,"{'neutral': 4, 'gratitude': 1}","Counter({'Optimism': 2, 'Neutral': 1, 'Uncertain': 1})"
+416,2016-09-21,qa_pair1,"{'curiosity': 1, 'approval': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+417,2016-09-21,qa_pair2,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+418,2016-09-21,qa_pair3,"{'neutral': 1, 'approval': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+419,2016-09-21,qa_pair4,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+420,2016-09-21,qa_pair5,{'neutral': 3},Counter({'Neutral': 2})
+421,2016-09-21,qa_pair6,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+422,2016-09-21,qa_pair7,"{'neutral': 2, 'approval': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+423,2016-09-21,qa_pair8,"{'neutral': 1, 'optimism': 1}",Counter({'Neutral': 1})
+424,2016-09-21,qa_pair9,{'neutral': 1},Counter({'Concerned': 1})
+425,2016-09-21,qa_pair10,{'neutral': 2},Counter({'Concerned': 1})
+426,2016-09-21,qa_pair11,{'neutral': 1},Counter({'Uncertain': 1})
+427,2016-09-21,qa_pair12,{'neutral': 2},Counter({'Concerned': 1})
+428,2016-09-21,qa_pair13,"{'curiosity': 1, 'sadness': 1}",Counter({'Pessimism': 2})
+429,2016-09-21,qa_pair14,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 2})
+430,2016-09-21,qa_pair15,{'neutral': 2},"Counter({'Uncertain': 1, 'Neutral': 1})"
+431,2016-09-21,qa_pair16,{'neutral': 2},Counter({'Concerned': 1})
+432,2016-09-21,qa_pair17,{'curiosity': 1},Counter({'Concerned': 1})
+433,2016-12-14,opening_remark,{'neutral': 4},"Counter({'Neutral': 2, 'Optimism': 1})"
+434,2016-12-14,qa_pair1,{'gratitude': 1},Counter({'Neutral': 1})
+435,2016-12-14,qa_pair2,"{'curiosity': 1, 'neutral': 1}","Counter({'Neutral': 1, 'Concerned': 1})"
+436,2016-12-14,qa_pair3,{'curiosity': 1},Counter({'Optimism': 1})
+437,2016-12-14,qa_pair4,{'approval': 2},Counter({'Uncertain': 1})
+438,2016-12-14,qa_pair5,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+439,2016-12-14,qa_pair6,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 2})
+440,2016-12-14,qa_pair7,{'curiosity': 1},Counter({'Uncertain': 1})
+441,2016-12-14,qa_pair8,{'remorse': 1},Counter({'Neutral': 1})
+442,2016-12-14,qa_pair9,"{'approval': 1, 'neutral': 1}","Counter({'Concerned': 1, 'Optimism': 1})"
+443,2016-12-14,qa_pair10,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+444,2016-12-14,qa_pair11,{'neutral': 1},Counter({'Uncertain': 1})
+445,2016-12-14,qa_pair12,{'curiosity': 1},Counter({'Uncertain': 1})
+446,2016-12-14,qa_pair13,"{'curiosity': 1, 'approval': 1}",Counter({'Optimism': 1})
+447,2016-12-14,qa_pair14,{'curiosity': 1},Counter({'Neutral': 1})
+448,2016-12-14,qa_pair15,"{'neutral': 1, 'curiosity': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+449,2016-12-14,qa_pair16,"{'curiosity': 1, 'approval': 1}","Counter({'Concerned': 1, 'Neutral': 1})"
+450,2016-12-14,qa_pair17,"{'neutral': 2, 'curiosity': 1}",Counter({'Neutral': 2})
+451,2017-03-15,opening_remark,"{'neutral': 3, 'gratitude': 1}","Counter({'Optimism': 2, 'Neutral': 1})"
+452,2017-03-15,qa_pair1,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 2})
+453,2017-03-15,qa_pair2,"{'confusion': 1, 'neutral': 1}",Counter({'Neutral': 1})
+454,2017-03-15,qa_pair3,{'neutral': 3},"Counter({'Neutral': 1, 'Uncertain': 1})"
+455,2017-03-15,qa_pair4,{'curiosity': 1},Counter({'Uncertain': 1})
+456,2017-03-15,qa_pair5,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+457,2017-03-15,qa_pair6,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+458,2017-03-15,qa_pair7,{'curiosity': 1},Counter({'Pessimism': 1})
+459,2017-03-15,qa_pair8,{'curiosity': 1},Counter({'Pessimism': 1})
+460,2017-03-15,qa_pair9,{'neutral': 1},Counter({'Concerned': 1})
+461,2017-03-15,qa_pair10,{'confusion': 1},Counter({'Neutral': 1})
+462,2017-03-15,qa_pair11,"{'neutral': 3, 'curiosity': 1}","Counter({'Neutral': 1, 'Pessimism': 1, 'Concerned': 1})"
+463,2017-03-15,qa_pair12,{'neutral': 2},Counter({'Uncertain': 1})
+464,2017-03-15,qa_pair13,{'admiration': 1},Counter({'Optimism': 1})
+465,2017-03-15,qa_pair14,{'neutral': 2},Counter({'Neutral': 2})
+466,2017-03-15,qa_pair15,{'confusion': 2},Counter({'Concerned': 1})
+467,2017-03-15,qa_pair16,{'neutral': 1},Counter({'Neutral': 1})
+468,2017-03-15,qa_pair17,{'neutral': 1},Counter({'Neutral': 1})
+469,2017-06-14,opening_remark,"{'neutral': 6, 'gratitude': 1}","Counter({'Optimism': 4, 'Concerned': 1})"
+470,2017-06-14,qa_pair1,{'neutral': 1},Counter({'Neutral': 1})
+471,2017-06-14,qa_pair2,{'gratitude': 1},Counter({'Uncertain': 1})
+472,2017-06-14,qa_pair3,"{'curiosity': 1, 'neutral': 2}","Counter({'Concerned': 1, 'Uncertain': 1})"
+473,2017-06-14,qa_pair4,"{'curiosity': 1, 'neutral': 1}",Counter({'Pessimism': 1})
+474,2017-06-14,qa_pair5,{'neutral': 1},Counter({'Pessimism': 1})
+475,2017-06-14,qa_pair6,{'neutral': 1},Counter({'Concerned': 1})
+476,2017-06-14,qa_pair7,"{'neutral': 2, 'approval': 1}","Counter({'Pessimism': 1, 'Neutral': 1})"
+477,2017-06-14,qa_pair8,"{'neutral': 1, 'optimism': 1}","Counter({'Pessimism': 1, 'Neutral': 1})"
+478,2017-06-14,qa_pair9,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+479,2017-06-14,qa_pair10,{'neutral': 2},"Counter({'Pessimism': 1, 'Uncertain': 1})"
+480,2017-06-14,qa_pair11,"{'curiosity': 1, 'neutral': 2}","Counter({'Pessimism': 1, 'Neutral': 1})"
+481,2017-06-14,qa_pair12,{'curiosity': 1},Counter({'Uncertain': 1})
+482,2017-06-14,qa_pair13,"{'curiosity': 1, 'approval': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+483,2017-06-14,qa_pair14,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 2})
+484,2017-06-14,qa_pair15,"{'curiosity': 1, 'approval': 1}",Counter({'Concerned': 1})
+485,2017-09-20,opening_remark,"{'neutral': 4, 'gratitude': 1}","Counter({'Optimism': 3, 'Neutral': 1})"
+486,2017-09-20,qa_pair1,"{'gratitude': 1, 'neutral': 2}","Counter({'Neutral': 1, 'Pessimism': 1, 'Concerned': 1})"
+487,2017-09-20,qa_pair2,"{'gratitude': 1, 'neutral': 1}",Counter({'Pessimism': 1})
+488,2017-09-20,qa_pair3,"{'curiosity': 1, 'neutral': 1, 'confusion': 1}","Counter({'Concerned': 1, 'Uncertain': 1})"
+489,2017-09-20,qa_pair4,{'neutral': 3},"Counter({'Neutral': 1, 'Concerned': 1})"
+490,2017-09-20,qa_pair5,{'neutral': 3},"Counter({'Uncertain': 1, 'Optimism': 1})"
+491,2017-09-20,qa_pair6,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+492,2017-09-20,qa_pair7,{'curiosity': 1},Counter({'Neutral': 1})
+493,2017-09-20,qa_pair8,{'neutral': 3},"Counter({'Optimism': 1, 'Neutral': 1, 'Concerned': 1})"
+494,2017-09-20,qa_pair9,"{'curiosity': 1, 'optimism': 1}",Counter({'Concerned': 1})
+495,2017-09-20,qa_pair10,{'neutral': 1},Counter({'Concerned': 1})
+496,2017-09-20,qa_pair11,{'neutral': 1},Counter({'Concerned': 1})
+497,2017-09-20,qa_pair12,"{'curiosity': 1, 'neutral': 2}","Counter({'Uncertain': 1, 'Neutral': 1})"
+498,2017-09-20,qa_pair13,"{'curiosity': 1, 'approval': 1}","Counter({'Concerned': 1, 'Neutral': 1})"
+499,2017-09-20,qa_pair14,"{'curiosity': 1, 'approval': 1, 'neutral': 1}","Counter({'Concerned': 2, 'Optimism': 1})"
+500,2017-12-13,opening_remark,"{'neutral': 4, 'gratitude': 1}","Counter({'Neutral': 2, 'Optimism': 2})"
+501,2017-12-13,qa_pair1,{'neutral': 3},"Counter({'Concerned': 1, 'Optimism': 1})"
+502,2017-12-13,qa_pair2,{'neutral': 2},Counter({'Uncertain': 1})
+503,2017-12-13,qa_pair3,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 2})
+504,2017-12-13,qa_pair4,"{'curiosity': 1, 'admiration': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+505,2017-12-13,qa_pair5,{'neutral': 3},"Counter({'Concerned': 1, 'Neutral': 1})"
+506,2017-12-13,qa_pair6,"{'neutral': 1, 'caring': 1}",Counter({'Uncertain': 1})
+507,2017-12-13,qa_pair7,{'neutral': 2},Counter({'Uncertain': 2})
+508,2017-12-13,qa_pair8,"{'curiosity': 1, 'approval': 1}",Counter({'Neutral': 1})
+509,2017-12-13,qa_pair9,{'neutral': 2},"Counter({'Concerned': 1, 'Uncertain': 1})"
+510,2017-12-13,qa_pair10,{'neutral': 1},Counter({'Neutral': 1})
+511,2017-12-13,qa_pair11,"{'gratitude': 1, 'optimism': 1}","Counter({'Pessimism': 1, 'Concerned': 1})"
+512,2017-12-13,qa_pair12,{'curiosity': 1},Counter({'Optimism': 1})
+513,2017-12-13,qa_pair13,"{'approval': 1, 'curiosity': 1}",Counter({'Concerned': 1})
+514,2017-12-13,qa_pair14,"{'curiosity': 1, 'approval': 1, 'neutral': 1}","Counter({'Neutral': 1, 'Concerned': 1})"
+515,2017-12-13,qa_pair15,"{'gratitude': 1, 'neutral': 1}",Counter({'Neutral': 2})
+516,2017-12-13,qa_pair16,"{'curiosity': 1, 'admiration': 1}",Counter({'Neutral': 1})
+517,2017-12-13,qa_pair17,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+518,2017-12-13,qa_pair18,"{'neutral': 2, 'gratitude': 1}","Counter({'Neutral': 2, 'Concerned': 1})"
+519,2018-03-21,opening_remark,"{'neutral': 3, 'gratitude': 1}","Counter({'Optimism': 2, 'Neutral': 1})"
+520,2018-03-21,qa_pair1,"{'curiosity': 1, 'neutral': 1}","Counter({'Neutral': 1, 'Concerned': 1})"
+521,2018-03-21,qa_pair2,"{'curiosity': 1, 'neutral': 1}",Counter({'Neutral': 1})
+522,2018-03-21,qa_pair3,{'neutral': 2},Counter({'Pessimism': 1})
+523,2018-03-21,qa_pair4,{'neutral': 2},Counter({'Concerned': 1})
+524,2018-03-21,qa_pair5,"{'curiosity': 1, 'neutral': 1}",Counter({'Pessimism': 1})
+525,2018-03-21,qa_pair6,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+526,2018-03-21,qa_pair7,{'curiosity': 1},Counter({'Uncertain': 1})
+527,2018-03-21,qa_pair8,{'neutral': 1},Counter({'Neutral': 1})
+528,2018-03-21,qa_pair9,{'neutral': 1},Counter({'Uncertain': 1})
+529,2018-03-21,qa_pair10,"{'neutral': 1, 'optimism': 1}",Counter({'Concerned': 1})
+530,2018-03-21,qa_pair11,{'curiosity': 1},Counter({'Uncertain': 1})
+531,2018-03-21,qa_pair12,{'neutral': 1},Counter({'Concerned': 1})
+532,2018-03-21,qa_pair13,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+533,2018-03-21,qa_pair14,"{'gratitude': 1, 'neutral': 1}",Counter({'Concerned': 2})
+534,2018-03-21,qa_pair15,"{'curiosity': 1, 'neutral': 1}","Counter({'Neutral': 1, 'Pessimism': 1})"
+535,2018-03-21,qa_pair16,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 2})
+536,2018-03-21,qa_pair17,{'curiosity': 1},Counter({'Concerned': 1})
+537,2018-03-21,qa_pair18,{'neutral': 1},Counter({'Neutral': 1})
+538,2018-03-21,qa_pair19,{'curiosity': 1},Counter({'Neutral': 1})
+539,2018-03-21,qa_pair20,{'neutral': 1},Counter({'Pessimism': 1})
+540,2018-03-21,qa_pair21,"{'curiosity': 1, 'gratitude': 1}",Counter({'Concerned': 1})
+541,2018-06-13,opening_remark,"{'gratitude': 3, 'optimism': 1, 'neutral': 2}","Counter({'Neutral': 3, 'Optimism': 2})"
+542,2018-06-13,qa_pair1,"{'curiosity': 1, 'neutral': 1}","Counter({'Pessimism': 1, 'Neutral': 1})"
+543,2018-06-13,qa_pair2,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+544,2018-06-13,qa_pair3,{'neutral': 2},Counter({'Uncertain': 1})
+545,2018-06-13,qa_pair4,"{'curiosity': 1, 'neutral': 1}",Counter({'Pessimism': 1})
+546,2018-06-13,qa_pair5,"{'curiosity': 1, 'neutral': 1}",Counter({'Neutral': 1})
+547,2018-06-13,qa_pair6,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+548,2018-06-13,qa_pair7,{'neutral': 1},Counter({'Pessimism': 1})
+549,2018-06-13,qa_pair8,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+550,2018-06-13,qa_pair9,{'neutral': 2},"Counter({'Concerned': 1, 'Optimism': 1})"
+551,2018-06-13,qa_pair10,"{'curiosity': 1, 'neutral': 1}",Counter({'Neutral': 1})
+552,2018-06-13,qa_pair11,{'neutral': 2},Counter({'Neutral': 2})
+553,2018-06-13,qa_pair12,{'neutral': 2},Counter({'Neutral': 2})
+554,2018-06-13,qa_pair13,"{'curiosity': 1, 'desire': 1}",Counter({'Uncertain': 1})
+555,2018-06-13,qa_pair14,{'neutral': 2},"Counter({'Neutral': 1, 'Uncertain': 1})"
+556,2018-06-13,qa_pair15,"{'gratitude': 1, 'neutral': 1}",Counter({'Pessimism': 1})
+557,2018-06-13,qa_pair16,{'neutral': 2},Counter({'Neutral': 1})
+558,2018-06-13,qa_pair17,"{'curiosity': 1, 'neutral': 1}",Counter({'Neutral': 1})
+559,2018-06-13,qa_pair18,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+560,2018-06-13,qa_pair19,"{'curiosity': 1, 'neutral': 1}","Counter({'Concerned': 1, 'Uncertain': 1})"
+561,2018-06-13,qa_pair20,{'neutral': 1},Counter({'Neutral': 1})
+562,2018-06-13,qa_pair21,{'curiosity': 1},Counter({'Concerned': 1})
+563,2018-06-13,qa_pair22,{'gratitude': 1},Counter({'Uncertain': 1})
+564,2018-09-26,opening_remark,"{'neutral': 3, 'gratitude': 1}",Counter({'Optimism': 3})
+565,2018-09-26,qa_pair1,{'curiosity': 1},Counter({'Neutral': 1})
+566,2018-09-26,qa_pair2,{'neutral': 1},Counter({'Neutral': 1})
+567,2018-09-26,qa_pair3,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+568,2018-09-26,qa_pair4,"{'confusion': 1, 'neutral': 2}",Counter({'Pessimism': 2})
+569,2018-09-26,qa_pair5,"{'gratitude': 1, 'neutral': 1, 'approval': 1}",Counter({'Concerned': 2})
+570,2018-09-26,qa_pair6,{'neutral': 2},"Counter({'Pessimism': 1, 'Uncertain': 1})"
+571,2018-09-26,qa_pair7,"{'approval': 1, 'neutral': 1}",Counter({'Optimism': 1})
+572,2018-09-26,qa_pair8,"{'curiosity': 1, 'confusion': 1}",Counter({'Uncertain': 1})
+573,2018-09-26,qa_pair9,"{'curiosity': 1, 'surprise': 1}",Counter({'Optimism': 1})
+574,2018-09-26,qa_pair10,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+575,2018-09-26,qa_pair11,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 2})
+576,2018-09-26,qa_pair12,"{'curiosity': 1, 'neutral': 1}","Counter({'Neutral': 1, 'Pessimism': 1})"
+577,2018-09-26,qa_pair13,{'neutral': 3},"Counter({'Uncertain': 1, 'Optimism': 1})"
+578,2018-09-26,qa_pair14,"{'gratitude': 1, 'neutral': 1, 'approval': 1}","Counter({'Pessimism': 1, 'Concerned': 1})"
+579,2018-09-26,qa_pair15,{'neutral': 1},Counter({'Concerned': 1})
+580,2018-09-26,qa_pair16,{'curiosity': 1},Counter({'Uncertain': 1})
+581,2018-09-26,qa_pair17,{'neutral': 2},Counter({'Uncertain': 1})
+582,2018-09-26,qa_pair18,"{'gratitude': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+583,2018-09-26,qa_pair19,{'neutral': 1},Counter({'Neutral': 1})
+584,2018-09-26,qa_pair20,"{'neutral': 1, 'optimism': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+585,2018-09-26,qa_pair21,"{'curiosity': 1, 'approval': 1}",Counter({'Pessimism': 1})
+586,2018-09-26,qa_pair22,"{'gratitude': 1, 'approval': 1}","Counter({'Concerned': 1, 'Pessimism': 1})"
+587,2018-09-26,qa_pair23,{'neutral': 1},Counter({'Concerned': 1})
+588,2018-09-26,qa_pair24,{'gratitude': 1},Counter({'Concerned': 1})
+589,2018-12-19,opening_remark,"{'gratitude': 2, 'neutral': 4}","Counter({'Optimism': 2, 'Pessimism': 2, 'Neutral': 1})"
+590,2018-12-19,qa_pair1,{'gratitude': 1},Counter({'Uncertain': 1})
+591,2018-12-19,qa_pair2,{'curiosity': 1},Counter({'Neutral': 1})
+592,2018-12-19,qa_pair3,"{'curiosity': 1, 'neutral': 1}",Counter({'Neutral': 1})
+593,2018-12-19,qa_pair4,{'neutral': 2},"Counter({'Uncertain': 1, 'Concerned': 1})"
+594,2018-12-19,qa_pair5,{'neutral': 1},Counter({'Pessimism': 1})
+595,2018-12-19,qa_pair6,{'neutral': 1},Counter({'Pessimism': 1})
+596,2018-12-19,qa_pair7,{'neutral': 2},"Counter({'Neutral': 1, 'Optimism': 1})"
+597,2018-12-19,qa_pair8,{'neutral': 1},Counter({'Concerned': 1})
+598,2018-12-19,qa_pair9,{'neutral': 2},Counter({'Concerned': 1})
+599,2018-12-19,qa_pair10,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+600,2018-12-19,qa_pair11,{'neutral': 2},Counter({'Neutral': 1})
+601,2018-12-19,qa_pair12,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+602,2018-12-19,qa_pair13,{'neutral': 1},Counter({'Neutral': 1})
+603,2018-12-19,qa_pair14,{'approval': 1},Counter({'Neutral': 1})
+604,2018-12-19,qa_pair15,"{'optimism': 1, 'approval': 1}","Counter({'Neutral': 1, 'Optimism': 1})"
+605,2018-12-19,qa_pair16,"{'curiosity': 1, 'neutral': 1}",Counter({'Optimism': 2})
+606,2018-12-19,qa_pair17,"{'curiosity': 1, 'neutral': 1}",Counter({'Pessimism': 1})
+607,2018-12-19,qa_pair18,"{'curiosity': 1, 'optimism': 1}",Counter({'Concerned': 1})
+608,2018-12-19,qa_pair19,{'curiosity': 1},Counter({'Uncertain': 1})
+609,2018-12-19,qa_pair20,"{'curiosity': 1, 'gratitude': 1}",Counter({'Concerned': 1})
+610,2019-01-30,opening_remark,"{'neutral': 4, 'gratitude': 2}","Counter({'Optimism': 2, 'Neutral': 1, 'Uncertain': 1})"
+611,2019-01-30,qa_pair1,{'neutral': 1},Counter({'Uncertain': 1})
+612,2019-01-30,qa_pair2,{'neutral': 1},Counter({'Pessimism': 1})
+613,2019-01-30,qa_pair3,{'curiosity': 1},Counter({'Concerned': 1})
+614,2019-01-30,qa_pair4,"{'curiosity': 1, 'neutral': 1}",Counter({'Optimism': 1})
+615,2019-01-30,qa_pair5,"{'neutral': 1, 'approval': 1}",Counter({'Uncertain': 2})
+616,2019-01-30,qa_pair6,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+617,2019-01-30,qa_pair7,{'neutral': 2},Counter({'Concerned': 1})
+618,2019-01-30,qa_pair8,"{'curiosity': 1, 'neutral': 1}",Counter({'Neutral': 1})
+619,2019-01-30,qa_pair9,{'curiosity': 1},Counter({'Concerned': 1})
+620,2019-01-30,qa_pair10,{'curiosity': 1},Counter({'Neutral': 1})
+621,2019-01-30,qa_pair11,{'curiosity': 1},Counter({'Concerned': 1})
+622,2019-01-30,qa_pair12,{'curiosity': 2},Counter({'Concerned': 2})
+623,2019-01-30,qa_pair13,{'neutral': 1},Counter({'Concerned': 1})
+624,2019-01-30,qa_pair14,{'curiosity': 1},Counter({'Concerned': 1})
+625,2019-01-30,qa_pair15,{'approval': 1},Counter({'Optimism': 1})
+626,2019-01-30,qa_pair16,{'curiosity': 1},Counter({'Uncertain': 1})
+627,2019-01-30,qa_pair17,{'gratitude': 1},Counter({'Uncertain': 1})
+628,2019-01-30,qa_pair18,{'neutral': 2},"Counter({'Pessimism': 1, 'Concerned': 1})"
+629,2019-01-30,qa_pair19,{'curiosity': 1},Counter({'Uncertain': 1})
+630,2019-01-30,qa_pair20,"{'gratitude': 1, 'neutral': 1}",Counter({'Concerned': 1})
+631,2019-01-30,qa_pair21,{'neutral': 3},"Counter({'Uncertain': 1, 'Neutral': 1})"
+632,2019-01-30,qa_pair22,{'neutral': 1},Counter({'Neutral': 1})
+633,2019-01-30,qa_pair23,"{'curiosity': 1, 'gratitude': 1}",Counter({'Neutral': 1})
+634,2019-03-20,opening_remark,"{'neutral': 4, 'gratitude': 1}","Counter({'Neutral': 2, 'Optimism': 2})"
+635,2019-03-20,qa_pair1,{'neutral': 1},Counter({'Concerned': 1})
+636,2019-03-20,qa_pair2,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Pessimism': 1})"
+637,2019-03-20,qa_pair3,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+638,2019-03-20,qa_pair4,"{'curiosity': 1, 'approval': 1}",Counter({'Uncertain': 1})
+639,2019-03-20,qa_pair5,{'curiosity': 2},"Counter({'Pessimism': 1, 'Concerned': 1})"
+640,2019-03-20,qa_pair6,{'neutral': 1},Counter({'Uncertain': 1})
+641,2019-03-20,qa_pair7,"{'curiosity': 1, 'approval': 1}",Counter({'Critical': 1})
+642,2019-03-20,qa_pair8,{'neutral': 1},Counter({'Uncertain': 1})
+643,2019-03-20,qa_pair9,"{'curiosity': 1, 'neutral': 1}","Counter({'Neutral': 1, 'Concerned': 1})"
+644,2019-03-20,qa_pair10,{'curiosity': 1},Counter({'Pessimism': 1})
+645,2019-03-20,qa_pair11,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+646,2019-03-20,qa_pair12,"{'confusion': 1, 'neutral': 1}","Counter({'Concerned': 1, 'Optimism': 1})"
+647,2019-03-20,qa_pair13,{'curiosity': 1},Counter({'Concerned': 1})
+648,2019-03-20,qa_pair14,{'neutral': 1},Counter({'Concerned': 1})
+649,2019-03-20,qa_pair15,"{'curiosity': 1, 'neutral': 1}",Counter({'Neutral': 1})
+650,2019-03-20,qa_pair16,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+651,2019-03-20,qa_pair17,{'curiosity': 1},Counter({'Uncertain': 1})
+652,2019-03-20,qa_pair18,{'curiosity': 1},Counter({'Uncertain': 1})
+653,2019-03-20,qa_pair19,{'neutral': 2},Counter({'Uncertain': 1})
+654,2019-03-20,qa_pair20,{'neutral': 1},Counter({'Uncertain': 1})
+655,2019-03-20,qa_pair21,{'neutral': 1},Counter({'Neutral': 1})
+656,2019-05-01,opening_remark,"{'neutral': 3, 'gratitude': 1}","Counter({'Optimism': 2, 'Neutral': 1})"
+657,2019-05-01,qa_pair1,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+658,2019-05-01,qa_pair2,{'gratitude': 1},Counter({'Uncertain': 1})
+659,2019-05-01,qa_pair3,"{'curiosity': 1, 'approval': 1}",Counter({'Uncertain': 1})
+660,2019-05-01,qa_pair4,{'curiosity': 2},Counter({'Concerned': 2})
+661,2019-05-01,qa_pair5,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+662,2019-05-01,qa_pair6,{'neutral': 2},Counter({'Neutral': 1})
+663,2019-05-01,qa_pair7,{'curiosity': 1},Counter({'Uncertain': 1})
+664,2019-05-01,qa_pair8,{'curiosity': 1},Counter({'Uncertain': 1})
+665,2019-05-01,qa_pair9,"{'curiosity': 1, 'approval': 1}",Counter({'Neutral': 1})
+666,2019-05-01,qa_pair10,{'neutral': 2},"Counter({'Concerned': 1, 'Neutral': 1})"
+667,2019-05-01,qa_pair11,"{'gratitude': 1, 'approval': 1}",Counter({'Concerned': 1})
+668,2019-05-01,qa_pair12,{'curiosity': 1},Counter({'Pessimism': 1})
+669,2019-05-01,qa_pair13,"{'curiosity': 1, 'approval': 1}",Counter({'Optimism': 2})
+670,2019-05-01,qa_pair14,{'neutral': 2},Counter({'Optimism': 2})
+671,2019-05-01,qa_pair15,{'neutral': 1},Counter({'Uncertain': 1})
+672,2019-05-01,qa_pair16,{'neutral': 2},Counter({'Uncertain': 1})
+673,2019-05-01,qa_pair17,{'neutral': 1},Counter({'Uncertain': 1})
+674,2019-05-01,qa_pair18,{'curiosity': 1},Counter({'Uncertain': 1})
+675,2019-05-01,qa_pair19,"{'curiosity': 1, 'gratitude': 1}",Counter({'Uncertain': 1})
+676,2019-06-19,opening_remark,"{'neutral': 4, 'gratitude': 1}","Counter({'Optimism': 3, 'Uncertain': 1})"
+677,2019-06-19,qa_pair1,"{'curiosity': 1, 'approval': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+678,2019-06-19,qa_pair2,{'neutral': 2},Counter({'Concerned': 1})
+679,2019-06-19,qa_pair3,{'neutral': 1},Counter({'Neutral': 1})
+680,2019-06-19,qa_pair4,"{'optimism': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+681,2019-06-19,qa_pair5,{'curiosity': 1},Counter({'Neutral': 1})
+682,2019-06-19,qa_pair6,{'neutral': 1},Counter({'Uncertain': 1})
+683,2019-06-19,qa_pair7,"{'curiosity': 1, 'neutral': 2}","Counter({'Pessimism': 1, 'Concerned': 1})"
+684,2019-06-19,qa_pair8,"{'gratitude': 1, 'confusion': 1}",Counter({'Uncertain': 1})
+685,2019-06-19,qa_pair9,{'curiosity': 1},Counter({'Uncertain': 1})
+686,2019-06-19,qa_pair10,{'curiosity': 1},Counter({'Concerned': 1})
+687,2019-06-19,qa_pair11,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+688,2019-06-19,qa_pair12,"{'curiosity': 1, 'joy': 1}",Counter({'Neutral': 1})
+689,2019-06-19,qa_pair13,{'neutral': 1},Counter({'Concerned': 1})
+690,2019-06-19,qa_pair14,{'curiosity': 1},Counter({'Neutral': 1})
+691,2019-06-19,qa_pair15,{'neutral': 2},Counter({'Concerned': 1})
+692,2019-06-19,qa_pair16,"{'curiosity': 1, 'neutral': 1, 'confusion': 1}","Counter({'Optimism': 1, 'Neutral': 1})"
+693,2019-06-19,qa_pair17,"{'curiosity': 1, 'neutral': 2}","Counter({'Concerned': 2, 'Uncertain': 1})"
+694,2019-06-19,qa_pair18,"{'curiosity': 1, 'neutral': 1}","Counter({'Neutral': 1, 'Optimism': 1})"
+695,2019-06-19,qa_pair19,{'curiosity': 1},Counter({'Uncertain': 1})
+696,2019-07-31,opening_remark,"{'neutral': 2, 'gratitude': 1, 'joy': 1}","Counter({'Optimism': 2, 'Concerned': 1})"
+697,2019-07-31,qa_pair1,{'neutral': 2},Counter({'Uncertain': 1})
+698,2019-07-31,qa_pair2,{'approval': 2},"Counter({'Neutral': 1, 'Optimism': 1})"
+699,2019-07-31,qa_pair3,{'curiosity': 1},Counter({'Optimism': 1})
+700,2019-07-31,qa_pair4,{'neutral': 2},"Counter({'Uncertain': 1, 'Concerned': 1})"
+701,2019-07-31,qa_pair5,"{'curiosity': 1, 'neutral': 1, 'love': 1}","Counter({'Neutral': 1, 'Concerned': 1})"
+702,2019-07-31,qa_pair6,{'neutral': 2},Counter({'Concerned': 1})
+703,2019-07-31,qa_pair7,{'neutral': 1},Counter({'Uncertain': 1})
+704,2019-07-31,qa_pair8,{'neutral': 1},Counter({'Uncertain': 1})
+705,2019-07-31,qa_pair9,"{'approval': 2, 'neutral': 1}","Counter({'Neutral': 1, 'Uncertain': 1})"
+706,2019-07-31,qa_pair10,{'neutral': 1},Counter({'Neutral': 1})
+707,2019-07-31,qa_pair11,"{'gratitude': 1, 'neutral': 1}",Counter({'Optimism': 1})
+708,2019-07-31,qa_pair12,{'neutral': 2},Counter({'Neutral': 1})
+709,2019-07-31,qa_pair13,"{'gratitude': 1, 'neutral': 2}",Counter({'Concerned': 2})
+710,2019-07-31,qa_pair14,"{'neutral': 1, 'confusion': 1}",Counter({'Uncertain': 1})
+711,2019-07-31,qa_pair15,{'neutral': 2},Counter({'Uncertain': 2})
+712,2019-07-31,qa_pair16,{'curiosity': 1},Counter({'Pessimism': 1})
+713,2019-07-31,qa_pair17,"{'curiosity': 1, 'neutral': 1}",Counter({'Pessimism': 1})
+714,2019-07-31,qa_pair18,{'confusion': 2},Counter({'Uncertain': 1})
+715,2019-07-31,qa_pair19,"{'curiosity': 1, 'excitement': 1}",Counter({'Uncertain': 1})
+716,2019-07-31,qa_pair20,{'neutral': 1},Counter({'Neutral': 1})
+717,2019-07-31,qa_pair21,"{'curiosity': 1, 'gratitude': 1}",Counter({'Uncertain': 1})
+718,2019-09-18,opening_remark,"{'neutral': 4, 'gratitude': 1}","Counter({'Optimism': 2, 'Neutral': 1, 'Uncertain': 1})"
+719,2019-09-18,qa_pair1,{'neutral': 1},Counter({'Optimism': 1})
+720,2019-09-18,qa_pair2,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+721,2019-09-18,qa_pair3,"{'neutral': 1, 'approval': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+722,2019-09-18,qa_pair4,"{'curiosity': 1, 'neutral': 2}","Counter({'Concerned': 2, 'Pessimism': 1})"
+723,2019-09-18,qa_pair5,{'neutral': 2},Counter({'Uncertain': 1})
+724,2019-09-18,qa_pair6,{'curiosity': 2},Counter({'Uncertain': 2})
+725,2019-09-18,qa_pair7,{'curiosity': 1},Counter({'Uncertain': 1})
+726,2019-09-18,qa_pair8,{'neutral': 2},Counter({'Concerned': 1})
+727,2019-09-18,qa_pair9,"{'neutral': 1, 'approval': 1}","Counter({'Concerned': 1, 'Uncertain': 1})"
+728,2019-09-18,qa_pair10,"{'neutral': 1, 'approval': 1}",Counter({'Uncertain': 2})
+729,2019-09-18,qa_pair11,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 2})
+730,2019-09-18,qa_pair12,{'neutral': 2},Counter({'Optimism': 1})
+731,2019-09-18,qa_pair13,{'neutral': 2},"Counter({'Concerned': 1, 'Optimism': 1})"
+732,2019-09-18,qa_pair14,"{'curiosity': 1, 'neutral': 2}","Counter({'Pessimism': 1, 'Neutral': 1})"
+733,2019-09-18,qa_pair15,"{'curiosity': 1, 'approval': 1}","Counter({'Uncertain': 1, 'Pessimism': 1})"
+734,2019-09-18,qa_pair16,{'confusion': 1},Counter({'Concerned': 1})
+735,2019-09-18,qa_pair17,{'neutral': 2},Counter({'Uncertain': 1})
+736,2019-09-18,qa_pair18,{'curiosity': 1},Counter({'Neutral': 1})
+737,2019-09-18,qa_pair19,{'neutral': 1},Counter({'Concerned': 1})
+738,2019-09-18,qa_pair20,{'curiosity': 1},Counter({'Concerned': 1})
+739,2019-10-30,opening_remark,"{'approval': 1, 'neutral': 2, 'gratitude': 1}","Counter({'Optimism': 2, 'Neutral': 1})"
+740,2019-10-30,qa_pair1,{'neutral': 2},"Counter({'Uncertain': 1, 'Neutral': 1})"
+741,2019-10-30,qa_pair2,"{'curiosity': 1, 'approval': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Optimism': 1})"
+742,2019-10-30,qa_pair3,"{'curiosity': 1, 'neutral': 1}",Counter({'Pessimism': 1})
+743,2019-10-30,qa_pair4,"{'curiosity': 1, 'remorse': 1}",Counter({'Uncertain': 1})
+744,2019-10-30,qa_pair5,"{'curiosity': 1, 'confusion': 1}",Counter({'Concerned': 1})
+745,2019-10-30,qa_pair6,"{'gratitude': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+746,2019-10-30,qa_pair7,"{'neutral': 1, 'approval': 1}","Counter({'Neutral': 1, 'Pessimism': 1})"
+747,2019-10-30,qa_pair8,"{'curiosity': 1, 'neutral': 1}","Counter({'Concerned': 1, 'Uncertain': 1})"
+748,2019-10-30,qa_pair9,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Optimism': 1})"
+749,2019-10-30,qa_pair10,{'curiosity': 1},Counter({'Pessimism': 1})
+750,2019-10-30,qa_pair11,"{'gratitude': 1, 'neutral': 1}",Counter({'Neutral': 1})
+751,2019-10-30,qa_pair12,{'neutral': 1},Counter({'Neutral': 1})
+752,2019-10-30,qa_pair13,{'approval': 1},Counter({'Uncertain': 1})
+753,2019-10-30,qa_pair14,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 2})
+754,2019-10-30,qa_pair15,{'neutral': 2},Counter({'Concerned': 1})
+755,2019-10-30,qa_pair16,{'curiosity': 1},Counter({'Neutral': 1})
+756,2019-10-30,qa_pair17,"{'gratitude': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+757,2019-10-30,qa_pair18,{'neutral': 2},"Counter({'Concerned': 1, 'Neutral': 1})"
+758,2019-10-30,qa_pair19,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+759,2019-10-30,qa_pair20,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+760,2019-10-30,qa_pair21,{'neutral': 1},Counter({'Neutral': 1})
+761,2019-10-30,qa_pair22,{'gratitude': 1},Counter({'Neutral': 1})
+762,2019-12-11,opening_remark,"{'neutral': 3, 'gratitude': 1}","Counter({'Neutral': 2, 'Optimism': 1})"
+763,2019-12-11,qa_pair1,"{'remorse': 1, 'disapproval': 1}","Counter({'Concerned': 1, 'Neutral': 1})"
+764,2019-12-11,qa_pair2,"{'curiosity': 1, 'approval': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+765,2019-12-11,qa_pair3,{'neutral': 4},"Counter({'Concerned': 2, 'Neutral': 1})"
+766,2019-12-11,qa_pair4,{'neutral': 1},Counter({'Uncertain': 1})
+767,2019-12-11,qa_pair5,{'neutral': 2},Counter({'Uncertain': 1})
+768,2019-12-11,qa_pair6,{'neutral': 2},Counter({'Neutral': 1})
+769,2019-12-11,qa_pair7,"{'neutral': 1, 'admiration': 1}",Counter({'Uncertain': 1})
+770,2019-12-11,qa_pair8,"{'neutral': 1, 'confusion': 1}",Counter({'Uncertain': 1})
+771,2019-12-11,qa_pair9,"{'curiosity': 2, 'neutral': 1}","Counter({'Neutral': 1, 'Concerned': 1})"
+772,2019-12-11,qa_pair10,{'neutral': 2},"Counter({'Concerned': 1, 'Uncertain': 1})"
+773,2019-12-11,qa_pair11,"{'curiosity': 1, 'neutral': 1}","Counter({'Optimism': 1, 'Neutral': 1})"
+774,2019-12-11,qa_pair12,"{'gratitude': 1, 'neutral': 1}","Counter({'Pessimism': 1, 'Optimism': 1})"
+775,2019-12-11,qa_pair13,{'curiosity': 1},Counter({'Uncertain': 1})
+776,2019-12-11,qa_pair14,{'neutral': 1},Counter({'Neutral': 1})
+777,2019-12-11,qa_pair15,{'neutral': 2},Counter({'Uncertain': 1})
+778,2019-12-11,qa_pair16,"{'neutral': 1, 'curiosity': 1, 'optimism': 1}","Counter({'Pessimism': 1, 'Neutral': 1})"
+779,2019-12-11,qa_pair17,"{'curiosity': 1, 'approval': 1}",Counter({'Uncertain': 1})
+780,2019-12-11,qa_pair18,"{'neutral': 2, 'approval': 1}",Counter({'Neutral': 2})
+781,2019-12-11,qa_pair19,{'gratitude': 1},Counter({'Concerned': 1})
+782,2019-12-11,qa_pair20,"{'neutral': 1, 'gratitude': 1}",Counter({'Neutral': 1})
+783,2020-01-29,opening_remark,"{'gratitude': 2, 'neutral': 2}","Counter({'Optimism': 2, 'Neutral': 1})"
+784,2020-01-29,qa_pair1,{'neutral': 2},Counter({'Neutral': 1})
+785,2020-01-29,qa_pair2,"{'curiosity': 1, 'neutral': 2}","Counter({'Neutral': 1, 'Optimism': 1})"
+786,2020-01-29,qa_pair3,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 2})
+787,2020-01-29,qa_pair4,{'curiosity': 2},Counter({'Concerned': 2})
+788,2020-01-29,qa_pair5,"{'curiosity': 1, 'approval': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+789,2020-01-29,qa_pair6,{'neutral': 3},Counter({'Concerned': 2})
+790,2020-01-29,qa_pair7,{'neutral': 2},"Counter({'Uncertain': 1, 'Neutral': 1})"
+791,2020-01-29,qa_pair8,{'gratitude': 1},Counter({'Uncertain': 1})
+792,2020-01-29,qa_pair9,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 2})
+793,2020-01-29,qa_pair10,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 2})
+794,2020-01-29,qa_pair11,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+795,2020-01-29,qa_pair12,{'neutral': 2},Counter({'Uncertain': 1})
+796,2020-01-29,qa_pair13,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+797,2020-01-29,qa_pair14,{'neutral': 2},Counter({'Neutral': 1})
+798,2020-01-29,qa_pair15,"{'gratitude': 1, 'neutral': 1}","Counter({'Concerned': 1, 'Pessimism': 1})"
+799,2020-01-29,qa_pair16,{'confusion': 1},Counter({'Neutral': 1})
+800,2020-01-29,qa_pair17,{'neutral': 2},Counter({'Uncertain': 1})
+801,2020-01-29,qa_pair18,"{'curiosity': 1, 'neutral': 1}","Counter({'Concerned': 1, 'Neutral': 1})"
+802,2020-01-29,qa_pair19,"{'curiosity': 1, 'neutral': 1}",Counter({'Optimism': 2})
+803,2020-01-29,qa_pair20,{'curiosity': 1},Counter({'Neutral': 1})
+804,2020-01-29,qa_pair21,{'gratitude': 2},Counter({'Concerned': 1})
+805,2020-03-03,opening_remark,"{'neutral': 1, 'gratitude': 1}","Counter({'Concerned': 1, 'Optimism': 1})"
+806,2020-03-03,qa_pair1,"{'curiosity': 1, 'optimism': 1}",Counter({'Uncertain': 1})
+807,2020-03-03,qa_pair2,{'neutral': 1},Counter({'Neutral': 1})
+808,2020-03-03,qa_pair3,"{'remorse': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+809,2020-03-03,qa_pair4,{'neutral': 1},Counter({'Concerned': 1})
+810,2020-03-03,qa_pair5,{'neutral': 1},Counter({'Neutral': 1})
+811,2020-03-03,qa_pair6,"{'gratitude': 1, 'neutral': 1}",Counter({'Concerned': 1})
+812,2020-03-03,qa_pair7,{'curiosity': 1},Counter({'Uncertain': 1})
+813,2020-03-03,qa_pair8,{'gratitude': 1},Counter({'Pessimism': 1})
+814,2020-03-15,opening_remark,"{'caring': 1, 'neutral': 3, 'gratitude': 1}","Counter({'Concerned': 3, 'Optimism': 1})"
+815,2020-03-15,qa_pair1,{'gratitude': 2},"Counter({'Uncertain': 1, 'Optimism': 1})"
+816,2020-03-15,qa_pair2,{'curiosity': 1},Counter({'Uncertain': 1})
+817,2020-03-15,qa_pair3,"{'curiosity': 1, 'neutral': 1, 'optimism': 1}",Counter({'Concerned': 2})
+818,2020-03-15,qa_pair4,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+819,2020-03-15,qa_pair5,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+820,2020-03-15,qa_pair6,"{'curiosity': 1, 'neutral': 3}",Counter({'Uncertain': 3})
+821,2020-03-15,qa_pair7,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+822,2020-03-15,qa_pair8,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+823,2020-03-15,qa_pair9,{'neutral': 3},Counter({'Concerned': 2})
+824,2020-03-15,qa_pair10,"{'curiosity': 1, 'neutral': 2}",Counter({'Concerned': 2})
+825,2020-03-15,qa_pair11,"{'curiosity': 2, 'neutral': 1}","Counter({'Concerned': 1, 'Neutral': 1})"
+826,2020-03-15,qa_pair12,"{'gratitude': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+827,2020-03-15,qa_pair13,"{'curiosity': 1, 'gratitude': 1}",Counter({'Concerned': 1})
+828,2020-04-29,opening_remark,"{'gratitude': 2, 'neutral': 2}",Counter({'Concerned': 4})
+829,2020-04-29,qa_pair1,{'neutral': 2},Counter({'Optimism': 1})
+830,2020-04-29,qa_pair2,"{'curiosity': 1, 'approval': 1}",Counter({'Neutral': 1})
+831,2020-04-29,qa_pair3,"{'neutral': 2, 'approval': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+832,2020-04-29,qa_pair4,"{'curiosity': 1, 'neutral': 3}","Counter({'Optimism': 2, 'Uncertain': 1})"
+833,2020-04-29,qa_pair5,"{'curiosity': 1, 'neutral': 2}",Counter({'Uncertain': 2})
+834,2020-04-29,qa_pair6,"{'curiosity': 1, 'neutral': 2}",Counter({'Uncertain': 2})
+835,2020-04-29,qa_pair7,"{'sadness': 1, 'caring': 1}","Counter({'Concerned': 1, 'Pessimism': 1})"
+836,2020-04-29,qa_pair8,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+837,2020-04-29,qa_pair9,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+838,2020-04-29,qa_pair10,"{'neutral': 1, 'approval': 1}",Counter({'Uncertain': 1})
+839,2020-04-29,qa_pair11,"{'curiosity': 1, 'neutral': 1}","Counter({'Concerned': 1, 'Uncertain': 1})"
+840,2020-04-29,qa_pair12,"{'curiosity': 1, 'optimism': 1, 'approval': 1}",Counter({'Concerned': 2})
+841,2020-04-29,qa_pair13,"{'gratitude': 1, 'neutral': 1}",Counter({'Concerned': 2})
+842,2020-04-29,qa_pair14,"{'curiosity': 1, 'gratitude': 1}","Counter({'Concerned': 1, 'Optimism': 1})"
+843,2020-06-10,opening_remark,"{'gratitude': 2, 'neutral': 5}","Counter({'Concerned': 2, 'Optimism': 1, 'undefined': 1, 'Pessimism': 1})"
+844,2020-06-10,qa_pair1,"{'curiosity': 1, 'neutral': 2}","Counter({'Pessimism': 1, 'Optimism': 1})"
+845,2020-06-10,qa_pair2,"{'curiosity': 1, 'optimism': 1}","Counter({'Concerned': 1, 'Neutral': 1})"
+846,2020-06-10,qa_pair3,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 2})
+847,2020-06-10,qa_pair4,"{'confusion': 1, 'neutral': 1}","Counter({'Concerned': 1, 'Optimism': 1})"
+848,2020-06-10,qa_pair5,"{'curiosity': 1, 'neutral': 1, 'optimism': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+849,2020-06-10,qa_pair6,"{'curiosity': 1, 'approval': 2}","Counter({'Uncertain': 1, 'Concerned': 1})"
+850,2020-06-10,qa_pair7,"{'gratitude': 1, 'neutral': 1}",Counter({'Concerned': 1})
+851,2020-06-10,qa_pair8,"{'curiosity': 1, 'neutral': 1, 'gratitude': 1}",Counter({'Concerned': 2})
+852,2020-06-10,qa_pair9,"{'gratitude': 2, 'neutral': 3}","Counter({'Concerned': 3, 'Uncertain': 1})"
+853,2020-06-10,qa_pair10,"{'confusion': 1, 'neutral': 1}","Counter({'Concerned': 1, 'Optimism': 1})"
+854,2020-06-10,qa_pair11,"{'curiosity': 1, 'sadness': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Optimism': 1})"
+855,2020-06-10,qa_pair12,"{'curiosity': 1, 'gratitude': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+856,2020-06-10,qa_pair13,"{'neutral': 1, 'gratitude': 1}",Counter({'Uncertain': 2})
+857,2020-06-10,qa_pair14,"{'curiosity': 1, 'neutral': 1, 'gratitude': 1}","Counter({'Concerned': 1, 'Optimism': 1})"
+858,2020-06-10,qa_pair15,"{'curiosity': 2, 'neutral': 1}","Counter({'Concerned': 1, 'Pessimism': 1})"
+859,2020-07-29,opening_remark,"{'neutral': 5, 'gratitude': 1}","Counter({'Optimism': 3, 'Concerned': 1, 'Pessimism': 1})"
+860,2020-07-29,qa_pair1,{'neutral': 1},Counter({'Concerned': 1})
+861,2020-07-29,qa_pair2,"{'neutral': 1, 'gratitude': 1}","Counter({'Pessimism': 1, 'Concerned': 1})"
+862,2020-07-29,qa_pair3,{'neutral': 1},Counter({'Neutral': 1})
+863,2020-07-29,qa_pair4,"{'gratitude': 1, 'neutral': 4}",Counter({'Concerned': 4})
+864,2020-07-29,qa_pair5,"{'curiosity': 1, 'neutral': 1}","Counter({'Neutral': 1, 'Concerned': 1})"
+865,2020-07-29,qa_pair6,"{'curiosity': 1, 'gratitude': 1}",Counter({'Uncertain': 1})
+866,2020-07-29,qa_pair7,{'gratitude': 2},Counter({'Concerned': 1})
+867,2020-07-29,qa_pair8,"{'gratitude': 2, 'neutral': 1}","Counter({'Concerned': 1, 'Optimism': 1})"
+868,2020-07-29,qa_pair9,"{'curiosity': 1, 'gratitude': 1}",Counter({'Concerned': 2})
+869,2020-07-29,qa_pair10,"{'curiosity': 1, 'approval': 1}","Counter({'Pessimism': 1, 'Concerned': 1})"
+870,2020-07-29,qa_pair11,{'gratitude': 2},Counter({'Pessimism': 1})
+871,2020-07-29,qa_pair12,"{'gratitude': 1, 'neutral': 1}","Counter({'Concerned': 1, 'Neutral': 1})"
+872,2020-07-29,qa_pair13,"{'curiosity': 1, 'neutral': 1, 'approval': 1, 'gratitude': 1}",Counter({'Concerned': 3})
+873,2020-07-29,qa_pair14,"{'curiosity': 1, 'gratitude': 1}",Counter({'Concerned': 1})
+874,2020-07-29,qa_pair15,"{'curiosity': 1, 'remorse': 1}","Counter({'Neutral': 1, 'Uncertain': 1})"
+875,2020-07-29,qa_pair16,{'gratitude': 2},Counter({'Concerned': 1})
+876,2020-07-29,qa_pair17,{'gratitude': 2},Counter({'Concerned': 1})
+877,2020-07-29,qa_pair18,"{'gratitude': 2, 'neutral': 1}",Counter({'Concerned': 2})
+878,2020-07-29,qa_pair19,{'gratitude': 2},Counter({'Neutral': 1})
+879,2020-09-16,opening_remark,"{'neutral': 5, 'gratitude': 1}","Counter({'Optimism': 4, 'Neutral': 1})"
+880,2020-09-16,qa_pair1,"{'curiosity': 1, 'neutral': 1, 'gratitude': 1}",Counter({'Neutral': 2})
+881,2020-09-16,qa_pair2,"{'curiosity': 1, 'neutral': 1, 'gratitude': 1}",Counter({'Concerned': 2})
+882,2020-09-16,qa_pair3,"{'neutral': 1, 'remorse': 1, 'gratitude': 1}","Counter({'Concerned': 1, 'Uncertain': 1})"
+883,2020-09-16,qa_pair4,{'gratitude': 2},"Counter({'Concerned': 1, 'Optimism': 1})"
+884,2020-09-16,qa_pair5,{'curiosity': 1},Counter({'Uncertain': 1})
+885,2020-09-16,qa_pair6,"{'curiosity': 1, 'neutral': 1}","Counter({'Neutral': 1, 'Uncertain': 1})"
+886,2020-09-16,qa_pair7,"{'curiosity': 1, 'neutral': 1, 'gratitude': 1}","Counter({'Neutral': 1, 'Uncertain': 1})"
+887,2020-09-16,qa_pair8,"{'neutral': 1, 'gratitude': 1}",Counter({'Concerned': 2})
+888,2020-09-16,qa_pair9,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+889,2020-09-16,qa_pair10,"{'curiosity': 1, 'neutral': 1, 'gratitude': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+890,2020-09-16,qa_pair11,"{'gratitude': 1, 'neutral': 2, 'optimism': 1}",Counter({'Concerned': 3})
+891,2020-09-16,qa_pair12,"{'curiosity': 1, 'neutral': 1}","Counter({'Concerned': 1, 'Uncertain': 1})"
+892,2020-09-16,qa_pair13,"{'neutral': 2, 'gratitude': 1}","Counter({'Uncertain': 1, 'Pessimism': 1})"
+893,2020-09-16,qa_pair14,"{'curiosity': 1, 'neutral': 1, 'approval': 1}","Counter({'Concerned': 1, 'Pessimism': 1, 'Uncertain': 1})"
+894,2020-09-16,qa_pair15,{'neutral': 2},Counter({'Concerned': 1})
+895,2020-09-16,qa_pair16,"{'curiosity': 1, 'approval': 1}",Counter({'Neutral': 2})
+896,2020-09-16,qa_pair17,"{'gratitude': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+897,2020-09-16,qa_pair18,"{'confusion': 1, 'gratitude': 1}",Counter({'Concerned': 2})
+898,2020-11-05,opening_remark,"{'neutral': 4, 'gratitude': 1}","Counter({'Optimism': 3, 'Neutral': 1})"
+899,2020-11-05,qa_pair1,{'gratitude': 2},Counter({'Concerned': 1})
+900,2020-11-05,qa_pair2,{'gratitude': 1},Counter({'Uncertain': 1})
+901,2020-11-05,qa_pair3,"{'curiosity': 1, 'gratitude': 1}","Counter({'Pessimism': 1, 'Uncertain': 1})"
+902,2020-11-05,qa_pair4,{'gratitude': 2},"Counter({'Neutral': 1, 'Uncertain': 1})"
+903,2020-11-05,qa_pair5,"{'curiosity': 1, 'neutral': 2}",Counter({'Concerned': 2})
+904,2020-11-05,qa_pair6,{'gratitude': 1},Counter({'Neutral': 1})
+905,2020-11-05,qa_pair7,"{'neutral': 4, 'gratitude': 1}","Counter({'Concerned': 2, 'Pessimism': 1, 'Neutral': 1})"
+906,2020-11-05,qa_pair8,{'gratitude': 1},Counter({'Uncertain': 1})
+907,2020-11-05,qa_pair9,{'gratitude': 2},Counter({'Concerned': 1})
+908,2020-11-05,qa_pair10,{'neutral': 2},"Counter({'Concerned': 1, 'Uncertain': 1})"
+909,2020-11-05,qa_pair11,{'gratitude': 1},Counter({'Concerned': 1})
+910,2020-11-05,qa_pair12,{'gratitude': 2},Counter({'Concerned': 1})
+911,2020-11-05,qa_pair13,{'gratitude': 2},Counter({'Neutral': 2})
+912,2020-11-05,qa_pair14,"{'curiosity': 1, 'approval': 1, 'gratitude': 1}","Counter({'Concerned': 1, 'Optimism': 1})"
+913,2020-11-05,qa_pair15,"{'neutral': 3, 'gratitude': 1}","Counter({'Concerned': 1, 'Uncertain': 1, 'Critical': 1})"
+914,2020-12-16,opening_remark,"{'neutral': 5, 'gratitude': 1}","Counter({'Optimism': 4, 'Neutral': 1})"
+915,2020-12-16,qa_pair1,"{'gratitude': 3, 'neutral': 1}","Counter({'Neutral': 1, 'Uncertain': 1, 'Optimism': 1})"
+916,2020-12-16,qa_pair2,"{'neutral': 1, 'gratitude': 1}",Counter({'Neutral': 1})
+917,2020-12-16,qa_pair3,"{'curiosity': 1, 'gratitude': 1}",Counter({'Uncertain': 2})
+918,2020-12-16,qa_pair4,"{'curiosity': 1, 'neutral': 1, 'optimism': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+919,2020-12-16,qa_pair5,"{'curiosity': 1, 'gratitude': 1}",Counter({'Concerned': 1})
+920,2020-12-16,qa_pair6,"{'curiosity': 1, 'gratitude': 1}","Counter({'Concerned': 1, 'Optimism': 1})"
+921,2020-12-16,qa_pair7,"{'gratitude': 2, 'neutral': 2}","Counter({'Uncertain': 2, 'Concerned': 1})"
+922,2020-12-16,qa_pair8,"{'curiosity': 1, 'neutral': 2, 'gratitude': 1}","Counter({'Concerned': 2, 'Uncertain': 1})"
+923,2020-12-16,qa_pair9,"{'gratitude': 2, 'neutral': 1}","Counter({'Concerned': 1, 'Pessimism': 1})"
+924,2020-12-16,qa_pair10,"{'confusion': 1, 'approval': 1, 'gratitude': 1}","Counter({'Concerned': 1, 'Neutral': 1})"
+925,2020-12-16,qa_pair11,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 2})
+926,2020-12-16,qa_pair12,"{'neutral': 1, 'gratitude': 1}",Counter({'Uncertain': 1})
+927,2020-12-16,qa_pair13,{'gratitude': 1},Counter({'Concerned': 1})
+928,2020-12-16,qa_pair14,{'curiosity': 1},Counter({'Uncertain': 1})
+929,2020-12-16,qa_pair15,"{'curiosity': 1, 'neutral': 2}",Counter({'Concerned': 2})
+930,2020-12-16,qa_pair16,"{'curiosity': 1, 'optimism': 1, 'gratitude': 1}",Counter({'Concerned': 2})
+931,2021-01-27,opening_remark,"{'neutral': 3, 'disappointment': 1, 'gratitude': 1}","Counter({'Neutral': 1, 'Optimism': 1, 'Concerned': 1, 'Pessimism': 1})"
+932,2021-01-27,qa_pair1,{'gratitude': 2},Counter({'Concerned': 2})
+933,2021-01-27,qa_pair2,{'gratitude': 2},Counter({'Concerned': 1})
+934,2021-01-27,qa_pair3,"{'gratitude': 1, 'neutral': 1, 'remorse': 1, 'confusion': 1}","Counter({'Concerned': 2, 'Neutral': 1})"
+935,2021-01-27,qa_pair4,"{'curiosity': 1, 'neutral': 1, 'gratitude': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+936,2021-01-27,qa_pair5,"{'curiosity': 1, 'neutral': 1, 'gratitude': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+937,2021-01-27,qa_pair6,"{'neutral': 3, 'gratitude': 1}","Counter({'Neutral': 2, 'Uncertain': 1})"
+938,2021-01-27,qa_pair7,"{'curiosity': 1, 'gratitude': 1}","Counter({'Concerned': 1, 'Pessimism': 1})"
+939,2021-01-27,qa_pair8,"{'approval': 1, 'neutral': 1, 'gratitude': 1}","Counter({'Neutral': 1, 'Uncertain': 1})"
+940,2021-01-27,qa_pair9,"{'curiosity': 2, 'gratitude': 1}","Counter({'Concerned': 1, 'Uncertain': 1})"
+941,2021-01-27,qa_pair10,"{'gratitude': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+942,2021-01-27,qa_pair11,"{'gratitude': 2, 'approval': 1}","Counter({'Concerned': 1, 'Pessimism': 1})"
+943,2021-01-27,qa_pair12,"{'curiosity': 1, 'neutral': 2, 'approval': 1, 'gratitude': 1}","Counter({'Concerned': 3, 'Uncertain': 1})"
+944,2021-01-27,qa_pair13,"{'curiosity': 1, 'neutral': 2}","Counter({'Optimism': 1, 'Concerned': 1})"
+945,2021-03-17,opening_remark,"{'approval': 1, 'optimism': 1, 'neutral': 2, 'gratitude': 1}","Counter({'Optimism': 2, 'Neutral': 1, 'Concerned': 1})"
+946,2021-03-17,qa_pair1,{'neutral': 1},Counter({'Neutral': 1})
+947,2021-03-17,qa_pair2,"{'curiosity': 1, 'confusion': 1}","Counter({'Pessimism': 1, 'Neutral': 1})"
+948,2021-03-17,qa_pair3,"{'curiosity': 1, 'neutral': 1, 'gratitude': 1}","Counter({'Neutral': 1, 'Uncertain': 1})"
+949,2021-03-17,qa_pair4,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+950,2021-03-17,qa_pair5,"{'curiosity': 1, 'gratitude': 1}",Counter({'Uncertain': 1})
+951,2021-03-17,qa_pair6,"{'curiosity': 1, 'approval': 1, 'optimism': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+952,2021-03-17,qa_pair7,{'curiosity': 2},Counter({'Concerned': 2})
+953,2021-03-17,qa_pair8,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 2})
+954,2021-03-17,qa_pair9,"{'curiosity': 1, 'gratitude': 1}","Counter({'Concerned': 1, 'Optimism': 1})"
+955,2021-03-17,qa_pair10,"{'curiosity': 1, 'gratitude': 1}",Counter({'Pessimism': 1})
+956,2021-03-17,qa_pair11,"{'gratitude': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+957,2021-03-17,qa_pair12,{'neutral': 2},Counter({'Uncertain': 2})
+958,2021-03-17,qa_pair13,"{'neutral': 1, 'gratitude': 1}",Counter({'Optimism': 1})
+959,2021-03-17,qa_pair14,"{'gratitude': 1, 'neutral': 1}","Counter({'Concerned': 1, 'Neutral': 1})"
+960,2021-03-17,qa_pair15,"{'neutral': 3, 'gratitude': 1}",Counter({'Uncertain': 3})
+961,2021-03-17,qa_pair16,"{'gratitude': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Pessimism': 1})"
+962,2021-03-17,qa_pair17,"{'curiosity': 1, 'neutral': 1, 'gratitude': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+963,2021-03-17,qa_pair18,"{'curiosity': 1, 'neutral': 2, 'gratitude': 1}","Counter({'Neutral': 2, 'Uncertain': 1})"
+964,2021-03-17,qa_pair19,"{'curiosity': 1, 'gratitude': 1}",Counter({'Uncertain': 1})
+965,2021-04-28,opening_remark,"{'neutral': 3, 'gratitude': 1}","Counter({'Optimism': 2, 'Neutral': 1})"
+966,2021-04-28,qa_pair1,{'gratitude': 1},Counter({'Neutral': 1})
+967,2021-04-28,qa_pair2,"{'curiosity': 1, 'gratitude': 1}",Counter({'Uncertain': 1})
+968,2021-04-28,qa_pair3,"{'surprise': 1, 'gratitude': 1}","Counter({'Neutral': 1, 'Concerned': 1})"
+969,2021-04-28,qa_pair4,"{'curiosity': 1, 'gratitude': 1}",Counter({'Concerned': 1})
+970,2021-04-28,qa_pair5,"{'curiosity': 1, 'gratitude': 1}",Counter({'Concerned': 2})
+971,2021-04-28,qa_pair6,"{'gratitude': 1, 'optimism': 1}",Counter({'Concerned': 2})
+972,2021-04-28,qa_pair7,"{'curiosity': 1, 'gratitude': 1, 'remorse': 1}",Counter({'Concerned': 2})
+973,2021-04-28,qa_pair8,"{'gratitude': 2, 'neutral': 2}","Counter({'Optimism': 2, 'Concerned': 1})"
+974,2021-04-28,qa_pair9,{'neutral': 2},Counter({'Concerned': 2})
+975,2021-04-28,qa_pair10,"{'curiosity': 1, 'gratitude': 1}",Counter({'Concerned': 1})
+976,2021-04-28,qa_pair11,{'curiosity': 2},"Counter({'Concerned': 1, 'Optimism': 1})"
+977,2021-04-28,qa_pair12,"{'curiosity': 2, 'gratitude': 1}",Counter({'Concerned': 2})
+978,2021-04-28,qa_pair13,"{'gratitude': 2, 'neutral': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+979,2021-04-28,qa_pair14,"{'neutral': 2, 'curiosity': 1}",Counter({'Concerned': 2})
+980,2021-04-28,qa_pair15,"{'gratitude': 2, 'curiosity': 1}","Counter({'Concerned': 1, 'Optimism': 1})"
+981,2021-04-28,qa_pair16,"{'gratitude': 2, 'remorse': 1}","Counter({'Optimism': 1, 'Uncertain': 1})"
+982,2021-04-28,qa_pair17,{'gratitude': 2},Counter({'Uncertain': 1})
+983,2021-04-28,qa_pair18,"{'gratitude': 2, 'neutral': 1}",Counter({'Concerned': 2})
+984,2021-06-16,opening_remark,"{'neutral': 5, 'gratitude': 1}","Counter({'Optimism': 3, 'Neutral': 1})"
+985,2021-06-16,qa_pair1,"{'gratitude': 2, 'neutral': 2}","Counter({'Optimism': 2, 'Concerned': 1})"
+986,2021-06-16,qa_pair2,"{'gratitude': 1, 'confusion': 1}","Counter({'Concerned': 1, 'Neutral': 1})"
+987,2021-06-16,qa_pair3,{'gratitude': 2},Counter({'Uncertain': 1})
+988,2021-06-16,qa_pair4,"{'curiosity': 1, 'approval': 1, 'confusion': 1}",Counter({'Neutral': 2})
+989,2021-06-16,qa_pair5,{'neutral': 1},Counter({'Neutral': 1})
+990,2021-06-16,qa_pair6,"{'neutral': 2, 'gratitude': 1}",Counter({'Optimism': 2})
+991,2021-06-16,qa_pair7,{'curiosity': 1},Counter({'Uncertain': 1})
+992,2021-06-16,qa_pair8,"{'curiosity': 1, 'gratitude': 1}",Counter({'Concerned': 1})
+993,2021-06-16,qa_pair9,"{'curiosity': 1, 'confusion': 1}","Counter({'Concerned': 1, 'Neutral': 1})"
+994,2021-06-16,qa_pair10,"{'gratitude': 2, 'optimism': 1, 'neutral': 1}","Counter({'Concerned': 1, 'Uncertain': 1, 'Neutral': 1})"
+995,2021-06-16,qa_pair11,"{'curiosity': 1, 'gratitude': 1}",Counter({'Uncertain': 1})
+996,2021-06-16,qa_pair12,"{'gratitude': 2, 'neutral': 1}","Counter({'Pessimism': 1, 'Concerned': 1})"
+997,2021-06-16,qa_pair13,"{'curiosity': 2, 'gratitude': 1}",Counter({'Optimism': 2})
+998,2021-06-16,qa_pair14,"{'curiosity': 1, 'neutral': 1, 'gratitude': 1}",Counter({'Concerned': 2})
+999,2021-06-16,qa_pair15,"{'curiosity': 1, 'admiration': 1}",Counter({'Concerned': 1})
+1000,2021-06-16,qa_pair16,"{'neutral': 1, 'gratitude': 1}",Counter({'Concerned': 1})
+1001,2021-06-16,qa_pair17,{'curiosity': 2},Counter({'Neutral': 2})
+1002,2021-06-16,qa_pair18,"{'neutral': 3, 'gratitude': 1}","Counter({'Concerned': 2, 'Pessimism': 1})"
+1003,2021-07-28,opening_remark,"{'neutral': 4, 'gratitude': 1}","Counter({'Optimism': 3, 'Neutral': 1})"
+1004,2021-07-28,qa_pair1,"{'gratitude': 1, 'curiosity': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+1005,2021-07-28,qa_pair2,"{'remorse': 1, 'neutral': 1}",Counter({'Uncertain': 2})
+1006,2021-07-28,qa_pair3,{'neutral': 1},Counter({'Uncertain': 1})
+1007,2021-07-28,qa_pair4,{'curiosity': 2},Counter({'Uncertain': 2})
+1008,2021-07-28,qa_pair5,"{'curiosity': 1, 'gratitude': 1}","Counter({'Concerned': 1, 'Neutral': 1})"
+1009,2021-07-28,qa_pair6,"{'neutral': 1, 'gratitude': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+1010,2021-07-28,qa_pair7,"{'gratitude': 2, 'neutral': 1}","Counter({'Pessimism': 1, 'Uncertain': 1})"
+1011,2021-07-28,qa_pair8,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 2})
+1012,2021-07-28,qa_pair9,"{'gratitude': 1, 'neutral': 2}",Counter({'Concerned': 2})
+1013,2021-07-28,qa_pair10,"{'gratitude': 1, 'neutral': 1, 'approval': 1}","Counter({'Neutral': 1, 'Concerned': 1})"
+1014,2021-07-28,qa_pair11,"{'neutral': 2, 'gratitude': 1}",Counter({'Uncertain': 2})
+1015,2021-07-28,qa_pair12,"{'curiosity': 1, 'gratitude': 1}",Counter({'Pessimism': 1})
+1016,2021-07-28,qa_pair13,"{'curiosity': 1, 'neutral': 1, 'gratitude': 1}",Counter({'Uncertain': 2})
+1017,2021-07-28,qa_pair14,"{'curiosity': 1, 'gratitude': 1}",Counter({'Uncertain': 1})
+1018,2021-07-28,qa_pair15,"{'gratitude': 1, 'neutral': 1}","Counter({'Concerned': 1, 'Neutral': 1})"
+1019,2021-07-28,qa_pair16,"{'surprise': 1, 'neutral': 1, 'gratitude': 1}","Counter({'Concerned': 1, 'Optimism': 1})"
+1020,2021-07-28,qa_pair17,"{'neutral': 1, 'gratitude': 1}","Counter({'Neutral': 1, 'Optimism': 1})"
+1021,2021-09-22,opening_remark,"{'neutral': 4, 'gratitude': 1}","Counter({'Optimism': 2, 'Neutral': 1, 'Concerned': 1})"
+1022,2021-09-22,qa_pair1,{'gratitude': 2},"Counter({'Neutral': 1, 'Uncertain': 1})"
+1023,2021-09-22,qa_pair2,{'gratitude': 2},Counter({'Concerned': 2})
+1024,2021-09-22,qa_pair3,"{'curiosity': 1, 'gratitude': 1}",Counter({'Uncertain': 1})
+1025,2021-09-22,qa_pair4,"{'neutral': 1, 'gratitude': 1}",Counter({'Concerned': 1})
+1026,2021-09-22,qa_pair5,"{'curiosity': 1, 'gratitude': 1}",Counter({'Neutral': 1})
+1027,2021-09-22,qa_pair6,"{'curiosity': 1, 'approval': 1, 'gratitude': 1}",Counter({'Concerned': 2})
+1028,2021-09-22,qa_pair7,"{'curiosity': 2, 'neutral': 1}","Counter({'Neutral': 1, 'Pessimism': 1, 'Concerned': 1})"
+1029,2021-09-22,qa_pair8,"{'curiosity': 1, 'gratitude': 1}",Counter({'Neutral': 1})
+1030,2021-09-22,qa_pair9,"{'curiosity': 1, 'neutral': 1, 'gratitude': 1}","Counter({'Concerned': 1, 'Neutral': 1})"
+1031,2021-09-22,qa_pair10,"{'curiosity': 1, 'gratitude': 1}",Counter({'Concerned': 1})
+1032,2021-09-22,qa_pair11,{'curiosity': 1},Counter({'Concerned': 1})
+1033,2021-09-22,qa_pair12,"{'curiosity': 1, 'neutral': 1, 'gratitude': 1}","Counter({'Neutral': 1, 'Concerned': 1})"
+1034,2021-09-22,qa_pair13,"{'curiosity': 1, 'gratitude': 1}",Counter({'Uncertain': 1})
+1035,2021-09-22,qa_pair14,"{'curiosity': 1, 'gratitude': 1}",Counter({'Concerned': 2})
+1036,2021-09-22,qa_pair15,{'gratitude': 1},Counter({'Uncertain': 1})
+1037,2021-09-22,qa_pair16,{'gratitude': 1},Counter({'Neutral': 1})
+1038,2021-09-22,qa_pair17,"{'curiosity': 1, 'gratitude': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+1039,2021-09-22,qa_pair18,{'gratitude': 2},Counter({'Concerned': 1})
+1040,2021-09-22,qa_pair19,"{'gratitude': 2, 'curiosity': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+1041,2021-11-03,opening_remark,"{'neutral': 3, 'gratitude': 1}","Counter({'Optimism': 2, 'Neutral': 1, 'Pessimism': 1})"
+1042,2021-11-03,qa_pair1,"{'neutral': 1, 'gratitude': 1}","Counter({'Uncertain': 1, 'Optimism': 1})"
+1043,2021-11-03,qa_pair2,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+1044,2021-11-03,qa_pair3,{'neutral': 1},Counter({'Neutral': 1})
+1045,2021-11-03,qa_pair4,"{'gratitude': 2, 'neutral': 1}",Counter({'Concerned': 2})
+1046,2021-11-03,qa_pair5,"{'curiosity': 1, 'gratitude': 1}",Counter({'Neutral': 1})
+1047,2021-11-03,qa_pair6,"{'curiosity': 1, 'neutral': 1, 'gratitude': 1}","Counter({'Concerned': 1, 'Pessimism': 1})"
+1048,2021-11-03,qa_pair7,"{'gratitude': 2, 'neutral': 1}","Counter({'Neutral': 1, 'Concerned': 1})"
+1049,2021-11-03,qa_pair8,"{'gratitude': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+1050,2021-11-03,qa_pair9,"{'confusion': 1, 'neutral': 2, 'gratitude': 1}","Counter({'Neutral': 2, 'Uncertain': 1})"
+1051,2021-11-03,qa_pair10,{'gratitude': 2},Counter({'Concerned': 1})
+1052,2021-11-03,qa_pair11,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 2})
+1053,2021-11-03,qa_pair12,"{'neutral': 2, 'gratitude': 1}",Counter({'Pessimism': 2})
+1054,2021-11-03,qa_pair13,{'neutral': 1},Counter({'Concerned': 1})
+1055,2021-11-03,qa_pair14,"{'curiosity': 1, 'neutral': 2, 'gratitude': 1}","Counter({'Uncertain': 2, 'Optimism': 1})"
+1056,2021-11-03,qa_pair15,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+1057,2021-11-03,qa_pair16,"{'curiosity': 1, 'neutral': 1, 'approval': 1}","Counter({'Concerned': 2, 'Optimism': 1})"
+1058,2021-11-03,qa_pair17,"{'curiosity': 1, 'neutral': 1, 'gratitude': 1}","Counter({'Pessimism': 1, 'Optimism': 1})"
+1059,2021-12-15,opening_remark,"{'neutral': 4, 'gratitude': 1}","Counter({'Optimism': 3, 'Neutral': 1})"
+1060,2021-12-15,qa_pair1,{'gratitude': 2},Counter({'Neutral': 1})
+1061,2021-12-15,qa_pair2,"{'curiosity': 1, 'neutral': 2}",Counter({'Uncertain': 2})
+1062,2021-12-15,qa_pair3,"{'curiosity': 1, 'neutral': 1}",Counter({'Neutral': 1})
+1063,2021-12-15,qa_pair4,"{'curiosity': 1, 'neutral': 1, 'gratitude': 1}","Counter({'Uncertain': 2, 'Concerned': 1})"
+1064,2021-12-15,qa_pair5,"{'curiosity': 1, 'neutral': 1, 'approval': 1}","Counter({'Concerned': 1, 'Uncertain': 1})"
+1065,2021-12-15,qa_pair6,"{'gratitude': 2, 'neutral': 2}","Counter({'Pessimism': 2, 'Optimism': 1})"
+1066,2021-12-15,qa_pair7,"{'curiosity': 1, 'gratitude': 1}",Counter({'Concerned': 1})
+1067,2021-12-15,qa_pair8,"{'curiosity': 1, 'neutral': 2, 'gratitude': 1}","Counter({'Concerned': 2, 'Neutral': 1})"
+1068,2021-12-15,qa_pair9,"{'gratitude': 1, 'neutral': 3}","Counter({'Concerned': 1, 'Optimism': 1, 'Uncertain': 1})"
+1069,2021-12-15,qa_pair10,{'gratitude': 1},Counter({'Neutral': 1})
+1070,2021-12-15,qa_pair11,{'neutral': 2},"Counter({'Concerned': 1, 'Uncertain': 1})"
+1071,2021-12-15,qa_pair12,"{'curiosity': 1, 'neutral': 3}","Counter({'Concerned': 2, 'Neutral': 1})"
+1072,2021-12-15,qa_pair13,{'neutral': 2},Counter({'Optimism': 1})
+1073,2021-12-15,qa_pair14,"{'curiosity': 1, 'gratitude': 1}","Counter({'Concerned': 1, 'Neutral': 1})"
+1074,2021-12-15,qa_pair15,"{'confusion': 1, 'neutral': 1}","Counter({'Neutral': 1, 'Pessimism': 1})"
+1075,2021-12-15,qa_pair16,"{'curiosity': 1, 'neutral': 1}","Counter({'Concerned': 1, 'Uncertain': 1})"
+1076,2021-12-15,qa_pair17,{'gratitude': 2},"Counter({'Neutral': 1, 'Concerned': 1})"
+1077,2022-01-26,opening_remark,"{'neutral': 3, 'gratitude': 2}","Counter({'Optimism': 3, 'Pessimism': 1})"
+1078,2022-01-26,qa_pair1,{'gratitude': 2},Counter({'Uncertain': 1})
+1079,2022-01-26,qa_pair2,"{'curiosity': 1, 'realization': 1, 'gratitude': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+1080,2022-01-26,qa_pair3,"{'curiosity': 1, 'neutral': 1, 'gratitude': 1}","Counter({'Neutral': 2, 'Uncertain': 1})"
+1081,2022-01-26,qa_pair4,{'gratitude': 2},Counter({'Concerned': 1})
+1082,2022-01-26,qa_pair5,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 2})
+1083,2022-01-26,qa_pair6,"{'gratitude': 1, 'neutral': 2}","Counter({'Neutral': 1, 'Uncertain': 1, 'Concerned': 1})"
+1084,2022-01-26,qa_pair7,"{'curiosity': 1, 'neutral': 1, 'gratitude': 1}","Counter({'Concerned': 1, 'Uncertain': 1})"
+1085,2022-01-26,qa_pair8,"{'gratitude': 2, 'neutral': 1}","Counter({'Neutral': 1, 'Uncertain': 1})"
+1086,2022-01-26,qa_pair9,{'neutral': 2},"Counter({'Uncertain': 1, 'Neutral': 1})"
+1087,2022-01-26,qa_pair10,{'gratitude': 2},Counter({'Concerned': 1})
+1088,2022-01-26,qa_pair11,{'neutral': 2},"Counter({'Concerned': 1, 'Uncertain': 1})"
+1089,2022-01-26,qa_pair12,"{'curiosity': 1, 'neutral': 2}","Counter({'Uncertain': 1, 'Neutral': 1})"
+1090,2022-01-26,qa_pair13,{'gratitude': 2},"Counter({'Concerned': 1, 'Uncertain': 1})"
+1091,2022-01-26,qa_pair14,"{'curiosity': 1, 'gratitude': 1}",Counter({'Concerned': 1})
+1092,2022-01-26,qa_pair15,{'neutral': 3},Counter({'Neutral': 2})
+1093,2022-03-16,opening_remark,"{'neutral': 3, 'gratitude': 2}","Counter({'Optimism': 2, 'Pessimism': 1, 'Concerned': 1})"
+1094,2022-03-16,qa_pair1,{'gratitude': 1},Counter({'Concerned': 1})
+1095,2022-03-16,qa_pair2,"{'curiosity': 1, 'gratitude': 1}","Counter({'Concerned': 1, 'Uncertain': 1})"
+1096,2022-03-16,qa_pair3,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+1097,2022-03-16,qa_pair4,"{'curiosity': 1, 'neutral': 1}",Counter({'Neutral': 1})
+1098,2022-03-16,qa_pair5,"{'curiosity': 1, 'neutral': 2}",Counter({'Uncertain': 2})
+1099,2022-03-16,qa_pair6,{'neutral': 2},"Counter({'Neutral': 1, 'Uncertain': 1})"
+1100,2022-03-16,qa_pair7,"{'gratitude': 1, 'neutral': 1}",Counter({'Concerned': 1})
+1101,2022-03-16,qa_pair8,{'gratitude': 1},Counter({'Concerned': 1})
+1102,2022-03-16,qa_pair9,"{'curiosity': 1, 'neutral': 1, 'gratitude': 1}","Counter({'Uncertain': 1, 'Pessimism': 1})"
+1103,2022-03-16,qa_pair10,"{'curiosity': 1, 'approval': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+1104,2022-03-16,qa_pair11,"{'gratitude': 1, 'optimism': 1}","Counter({'Neutral': 1, 'Uncertain': 1})"
+1105,2022-03-16,qa_pair12,"{'gratitude': 1, 'neutral': 1}","Counter({'Concerned': 1, 'Neutral': 1})"
+1106,2022-03-16,qa_pair13,"{'curiosity': 1, 'gratitude': 1}",Counter({'Optimism': 1})
+1107,2022-03-16,qa_pair14,"{'curiosity': 1, 'neutral': 2}","Counter({'Concerned': 1, 'Neutral': 1})"
+1108,2022-03-16,qa_pair15,"{'optimism': 1, 'gratitude': 1}",Counter({'Neutral': 1})
+1109,2022-03-16,qa_pair16,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 2})
+1110,2022-03-16,qa_pair17,{'gratitude': 1},Counter({'Concerned': 1})
+1111,2022-03-16,qa_pair18,"{'approval': 1, 'neutral': 1}","Counter({'Optimism': 1, 'Neutral': 1})"
+1112,2022-03-16,qa_pair19,"{'neutral': 1, 'gratitude': 1}",Counter({'Uncertain': 2})
+1113,2022-05-04,opening_remark,"{'neutral': 4, 'gratitude': 1}","Counter({'Concerned': 2, 'Optimism': 1, 'Neutral': 1})"
+1114,2022-05-04,qa_pair1,"{'curiosity': 1, 'neutral': 2}","Counter({'Neutral': 1, 'Uncertain': 1, 'Optimism': 1})"
+1115,2022-05-04,qa_pair2,"{'curiosity': 2, 'neutral': 2}","Counter({'Concerned': 2, 'Uncertain': 1})"
+1116,2022-05-04,qa_pair3,{'neutral': 2},Counter({'Neutral': 1})
+1117,2022-05-04,qa_pair4,"{'gratitude': 1, 'neutral': 1}",Counter({'Concerned': 1})
+1118,2022-05-04,qa_pair5,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+1119,2022-05-04,qa_pair6,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 2})
+1120,2022-05-04,qa_pair7,"{'curiosity': 1, 'gratitude': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+1121,2022-05-04,qa_pair8,"{'curiosity': 1, 'approval': 1}","Counter({'Concerned': 1, 'Optimism': 1})"
+1122,2022-05-04,qa_pair9,{'neutral': 1},Counter({'Neutral': 1})
+1123,2022-05-04,qa_pair10,"{'neutral': 4, 'approval': 1, 'curiosity': 1}","Counter({'Uncertain': 2, 'Pessimism': 1, 'Neutral': 1})"
+1124,2022-05-04,qa_pair11,{'neutral': 1},Counter({'Neutral': 1})
+1125,2022-05-04,qa_pair12,{'curiosity': 1},Counter({'Concerned': 1})
+1126,2022-05-04,qa_pair13,"{'gratitude': 1, 'approval': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+1127,2022-05-04,qa_pair14,"{'neutral': 1, 'gratitude': 1}",Counter({'Optimism': 2})
+1128,2022-06-15,opening_remark,"{'neutral': 4, 'gratitude': 1}","Counter({'Concerned': 2, 'Optimism': 1, 'Neutral': 1})"
+1129,2022-06-15,qa_pair1,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+1130,2022-06-15,qa_pair2,"{'curiosity': 1, 'neutral': 2}","Counter({'Uncertain': 1, 'Pessimism': 1})"
+1131,2022-06-15,qa_pair3,"{'curiosity': 1, 'neutral': 2}","Counter({'Neutral': 1, 'Uncertain': 1})"
+1132,2022-06-15,qa_pair4,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 2})
+1133,2022-06-15,qa_pair5,"{'gratitude': 1, 'neutral': 1}","Counter({'Concerned': 1, 'Uncertain': 1})"
+1134,2022-06-15,qa_pair6,"{'curiosity': 1, 'neutral': 2}","Counter({'Uncertain': 2, 'Concerned': 1})"
+1135,2022-06-15,qa_pair7,"{'curiosity': 1, 'neutral': 1}",Counter({'Pessimism': 2})
+1136,2022-06-15,qa_pair8,"{'curiosity': 1, 'neutral': 2}","Counter({'Pessimism': 1, 'Neutral': 1})"
+1137,2022-06-15,qa_pair9,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+1138,2022-06-15,qa_pair10,"{'curiosity': 1, 'neutral': 1}","Counter({'Concerned': 1, 'Pessimism': 1})"
+1139,2022-06-15,qa_pair11,"{'curiosity': 1, 'neutral': 1}","Counter({'Concerned': 1, 'Uncertain': 1})"
+1140,2022-06-15,qa_pair12,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+1141,2022-06-15,qa_pair13,"{'curiosity': 1, 'optimism': 1}",Counter({'Concerned': 1})
+1142,2022-06-15,qa_pair14,{'neutral': 2},Counter({'Uncertain': 1})
+1143,2022-06-15,qa_pair15,"{'curiosity': 1, 'approval': 1}",Counter({'Pessimism': 1})
+1144,2022-06-15,qa_pair16,"{'curiosity': 1, 'neutral': 1, 'gratitude': 1}","Counter({'Concerned': 1, 'Uncertain': 1})"
+1145,2022-06-15,qa_pair17,{'gratitude': 2},Counter({'Concerned': 2})
+1146,2022-07-27,opening_remark,"{'neutral': 3, 'gratitude': 1}","Counter({'Optimism': 2, 'Pessimism': 1})"
+1147,2022-07-27,qa_pair1,{'gratitude': 1},Counter({'Pessimism': 1})
+1148,2022-07-27,qa_pair2,"{'curiosity': 1, 'neutral': 2}","Counter({'Uncertain': 1, 'Concerned': 1})"
+1149,2022-07-27,qa_pair3,{'neutral': 2},"Counter({'Neutral': 1, 'Uncertain': 1})"
+1150,2022-07-27,qa_pair4,"{'gratitude': 1, 'neutral': 1}",Counter({'Concerned': 1})
+1151,2022-07-27,qa_pair5,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+1152,2022-07-27,qa_pair6,{'neutral': 2},Counter({'Optimism': 2})
+1153,2022-07-27,qa_pair7,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Pessimism': 1})"
+1154,2022-07-27,qa_pair8,{'curiosity': 1},Counter({'Concerned': 1})
+1155,2022-07-27,qa_pair9,{'neutral': 2},Counter({'Uncertain': 2})
+1156,2022-07-27,qa_pair10,"{'gratitude': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+1157,2022-07-27,qa_pair11,{'neutral': 2},"Counter({'Pessimism': 1, 'Concerned': 1})"
+1158,2022-07-27,qa_pair12,"{'curiosity': 1, 'neutral': 2}","Counter({'Uncertain': 1, 'Neutral': 1})"
+1159,2022-07-27,qa_pair13,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Optimism': 1})"
+1160,2022-07-27,qa_pair14,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+1161,2022-07-27,qa_pair15,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+1162,2022-07-27,qa_pair16,"{'gratitude': 2, 'confusion': 1, 'neutral': 1}","Counter({'Pessimism': 2, 'Concerned': 1})"
+1163,2022-07-27,qa_pair17,{'neutral': 2},Counter({'Concerned': 1})
+1164,2022-07-27,qa_pair18,"{'curiosity': 1, 'neutral': 1}","Counter({'Concerned': 1, 'Pessimism': 1})"
+1165,2022-07-27,qa_pair19,{'neutral': 2},Counter({'Pessimism': 1})
+1166,2022-07-27,qa_pair20,"{'gratitude': 1, 'neutral': 1}","Counter({'Concerned': 1, 'Optimism': 1})"
+1167,2022-07-27,qa_pair21,"{'curiosity': 1, 'gratitude': 1}",Counter({'Concerned': 1})
+1168,2022-09-21,opening_remark,"{'neutral': 4, 'gratitude': 1}","Counter({'Optimism': 2, 'Neutral': 1, 'Uncertain': 1})"
+1169,2022-09-21,qa_pair1,"{'curiosity': 1, 'neutral': 1}","Counter({'Neutral': 1, 'Optimism': 1})"
+1170,2022-09-21,qa_pair2,"{'gratitude': 1, 'confusion': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+1171,2022-09-21,qa_pair3,"{'curiosity': 1, 'neutral': 2}","Counter({'Pessimism': 1, 'Neutral': 1})"
+1172,2022-09-21,qa_pair4,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+1173,2022-09-21,qa_pair5,"{'curiosity': 1, 'neutral': 1}","Counter({'Concerned': 1, 'Uncertain': 1})"
+1174,2022-09-21,qa_pair6,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Optimism': 1})"
+1175,2022-09-21,qa_pair7,{'curiosity': 1},Counter({'Uncertain': 1})
+1176,2022-09-21,qa_pair8,"{'curiosity': 1, 'neutral': 1}","Counter({'Pessimism': 1, 'Neutral': 1})"
+1177,2022-09-21,qa_pair9,"{'curiosity': 1, 'approval': 1}",Counter({'Optimism': 2})
+1178,2022-09-21,qa_pair10,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 2})
+1179,2022-09-21,qa_pair11,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 2})
+1180,2022-09-21,qa_pair12,{'curiosity': 2},"Counter({'Pessimism': 1, 'Optimism': 1})"
+1181,2022-09-21,qa_pair13,{'curiosity': 2},Counter({'Pessimism': 2})
+1182,2022-09-21,qa_pair14,"{'curiosity': 1, 'neutral': 1}",Counter({'Neutral': 1})
+1183,2022-11-02,opening_remark,"{'neutral': 3, 'gratitude': 1}","Counter({'Optimism': 2, 'Neutral': 1})"
+1184,2022-11-02,qa_pair1,{'curiosity': 1},Counter({'Uncertain': 1})
+1185,2022-11-02,qa_pair2,"{'neutral': 2, 'approval': 1}","Counter({'Uncertain': 1, 'Neutral': 1, 'Optimism': 1})"
+1186,2022-11-02,qa_pair3,{'neutral': 2},"Counter({'Concerned': 1, 'Uncertain': 1})"
+1187,2022-11-02,qa_pair4,{'curiosity': 1},Counter({'Uncertain': 1})
+1188,2022-11-02,qa_pair5,"{'curiosity': 1, 'neutral': 2}","Counter({'Uncertain': 1, 'Neutral': 1})"
+1189,2022-11-02,qa_pair6,"{'curiosity': 1, 'neutral': 1}",Counter({'Neutral': 2})
+1190,2022-11-02,qa_pair7,"{'curiosity': 1, 'disappointment': 1, 'disapproval': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+1191,2022-11-02,qa_pair8,"{'gratitude': 2, 'neutral': 1}",Counter({'Concerned': 2})
+1192,2022-11-02,qa_pair9,{'neutral': 2},Counter({'Concerned': 2})
+1193,2022-11-02,qa_pair10,{'neutral': 3},"Counter({'Concerned': 1, 'Optimism': 1})"
+1194,2022-11-02,qa_pair11,"{'curiosity': 2, 'neutral': 1}","Counter({'Pessimism': 1, 'Concerned': 1, 'Neutral': 1})"
+1195,2022-11-02,qa_pair12,"{'neutral': 1, 'gratitude': 1}",Counter({'Concerned': 1})
+1196,2022-11-02,qa_pair13,"{'curiosity': 1, 'neutral': 1}","Counter({'Pessimism': 1, 'Uncertain': 1})"
+1197,2022-12-14,opening_remark,"{'neutral': 4, 'gratitude': 1}",Counter({'Concerned': 4})
+1198,2022-12-14,qa_pair1,"{'curiosity': 1, 'neutral': 1}","Counter({'Optimism': 1, 'Concerned': 1})"
+1199,2022-12-14,qa_pair2,"{'curiosity': 1, 'neutral': 2}","Counter({'Concerned': 2, 'Uncertain': 1})"
+1200,2022-12-14,qa_pair3,{'neutral': 2},"Counter({'Pessimism': 1, 'Neutral': 1})"
+1201,2022-12-14,qa_pair4,{'neutral': 2},Counter({'Uncertain': 2})
+1202,2022-12-14,qa_pair5,"{'curiosity': 1, 'neutral': 1}","Counter({'Pessimism': 1, 'Neutral': 1})"
+1203,2022-12-14,qa_pair6,{'curiosity': 1},Counter({'Uncertain': 1})
+1204,2022-12-14,qa_pair7,"{'curiosity': 1, 'neutral': 1}",Counter({'Pessimism': 2})
+1205,2022-12-14,qa_pair8,{'curiosity': 1},Counter({'Neutral': 1})
+1206,2022-12-14,qa_pair9,{'curiosity': 1},Counter({'Neutral': 1})
+1207,2022-12-14,qa_pair10,"{'gratitude': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Concerned': 1})"
+1208,2022-12-14,qa_pair11,"{'curiosity': 1, 'neutral': 2}","Counter({'Concerned': 1, 'Optimism': 1})"
+1209,2022-12-14,qa_pair12,{'curiosity': 1},Counter({'Concerned': 1})
+1210,2022-12-14,qa_pair13,{'gratitude': 1},Counter({'Neutral': 1})
+1211,2022-12-14,qa_pair14,"{'curiosity': 1, 'approval': 1}","Counter({'Concerned': 1, 'Optimism': 1})"
+1212,2022-12-14,qa_pair15,{'neutral': 1},Counter({'Uncertain': 1})
+1213,2022-12-14,qa_pair16,"{'curiosity': 1, 'neutral': 1}","Counter({'Neutral': 1, 'Concerned': 1})"
+1214,2022-12-14,qa_pair17,{'neutral': 2},Counter({'Pessimism': 1})
+1215,2022-12-14,qa_pair18,{'curiosity': 1},Counter({'Uncertain': 1})
+1216,2023-02-01,opening_remark,"{'neutral': 3, 'gratitude': 1}","Counter({'Concerned': 2, 'Neutral': 1})"
+1217,2023-02-01,qa_pair1,{'neutral': 1},Counter({'Neutral': 1})
+1218,2023-02-01,qa_pair2,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+1219,2023-02-01,qa_pair3,{'approval': 1},Counter({'Neutral': 1})
+1220,2023-02-01,qa_pair4,"{'curiosity': 1, 'neutral': 2}",Counter({'Uncertain': 2})
+1221,2023-02-01,qa_pair5,"{'curiosity': 1, 'optimism': 1, 'neutral': 1}","Counter({'Optimism': 1, 'Uncertain': 1})"
+1222,2023-02-01,qa_pair6,{'neutral': 2},"Counter({'Neutral': 1, 'Concerned': 1})"
+1223,2023-02-01,qa_pair7,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+1224,2023-02-01,qa_pair8,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+1225,2023-02-01,qa_pair9,"{'curiosity': 1, 'neutral': 2, 'confusion': 1}","Counter({'Neutral': 1, 'Pessimism': 1, 'Optimism': 1})"
+1226,2023-02-01,qa_pair10,"{'curiosity': 1, 'approval': 1}",Counter({'Pessimism': 1})
+1227,2023-02-01,qa_pair11,"{'curiosity': 1, 'approval': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+1228,2023-02-01,qa_pair12,"{'gratitude': 1, 'curiosity': 1}","Counter({'Neutral': 1, 'Uncertain': 1})"
+1229,2023-02-01,qa_pair13,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+1230,2023-02-01,qa_pair14,{'neutral': 1},Counter({'Pessimism': 1})
+1231,2023-02-01,qa_pair15,"{'curiosity': 1, 'optimism': 1}","Counter({'Neutral': 1, 'Concerned': 1})"
+1232,2023-02-01,qa_pair16,{'gratitude': 1},Counter({'Concerned': 1})
+1233,2023-02-01,qa_pair17,{'curiosity': 1},Counter({'Concerned': 1})
+1234,2023-03-22,opening_remark,"{'neutral': 4, 'gratitude': 1}","Counter({'Concerned': 2, 'Optimism': 2})"
+1235,2023-03-22,qa_pair1,"{'gratitude': 1, 'neutral': 1}",Counter({'Optimism': 2})
+1236,2023-03-22,qa_pair2,"{'curiosity': 1, 'neutral': 1}",Counter({'Neutral': 1})
+1237,2023-03-22,qa_pair3,{'neutral': 2},"Counter({'Uncertain': 1, 'Concerned': 1})"
+1238,2023-03-22,qa_pair4,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+1239,2023-03-22,qa_pair5,{'curiosity': 2},"Counter({'Neutral': 1, 'Pessimism': 1})"
+1240,2023-03-22,qa_pair6,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 2})
+1241,2023-03-22,qa_pair7,{'neutral': 2},"Counter({'Uncertain': 1, 'Pessimism': 1})"
+1242,2023-03-22,qa_pair8,{'curiosity': 1},Counter({'Concerned': 1})
+1243,2023-03-22,qa_pair9,{'neutral': 1},Counter({'Neutral': 1})
+1244,2023-03-22,qa_pair10,{'neutral': 1},Counter({'Neutral': 1})
+1245,2023-03-22,qa_pair11,{'gratitude': 1},Counter({'Uncertain': 1})
+1246,2023-03-22,qa_pair12,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+1247,2023-03-22,qa_pair13,"{'neutral': 1, 'confusion': 1}","Counter({'Concerned': 1, 'Neutral': 1})"
+1248,2023-03-22,qa_pair14,{'gratitude': 1},Counter({'Concerned': 1})
+1249,2023-03-22,qa_pair15,{'gratitude': 1},Counter({'Neutral': 1})
+1250,2023-03-22,qa_pair16,"{'curiosity': 1, 'neutral': 2}","Counter({'Concerned': 1, 'Uncertain': 1})"
+1251,2023-03-22,qa_pair17,{'curiosity': 1},Counter({'Uncertain': 1})
+1252,2023-03-22,qa_pair18,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+1253,2023-03-22,qa_pair19,"{'curiosity': 1, 'gratitude': 1}",Counter({'Concerned': 1})
+1254,2023-05-03,opening_remark,"{'neutral': 3, 'gratitude': 1}","Counter({'Optimism': 2, 'Concerned': 1})"
+1255,2023-05-03,qa_pair1,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+1256,2023-05-03,qa_pair2,"{'gratitude': 1, 'neutral': 1}","Counter({'Concerned': 1, 'Uncertain': 1})"
+1257,2023-05-03,qa_pair3,"{'curiosity': 1, 'remorse': 1, 'neutral': 1}","Counter({'Concerned': 1, 'Neutral': 1})"
+1258,2023-05-03,qa_pair4,"{'curiosity': 1, 'approval': 1}","Counter({'Concerned': 1, 'Neutral': 1})"
+1259,2023-05-03,qa_pair5,"{'curiosity': 1, 'neutral': 1}","Counter({'Uncertain': 1, 'Neutral': 1})"
+1260,2023-05-03,qa_pair6,"{'curiosity': 1, 'neutral': 1}",Counter({'Uncertain': 1})
+1261,2023-05-03,qa_pair7,{'neutral': 3},"Counter({'Concerned': 1, 'Pessimism': 1})"
+1262,2023-05-03,qa_pair8,"{'curiosity': 1, 'approval': 1}","Counter({'Uncertain': 1, 'Pessimism': 1})"
+1263,2023-05-03,qa_pair9,"{'curiosity': 1, 'approval': 1}","Counter({'Uncertain': 1, 'Optimism': 1})"
+1264,2023-05-03,qa_pair10,"{'neutral': 1, 'disapproval': 1}",Counter({'Neutral': 1})
+1265,2023-05-03,qa_pair11,{'curiosity': 1},Counter({'Pessimism': 1})
+1266,2023-05-03,qa_pair12,"{'curiosity': 1, 'neutral': 2}",Counter({'Uncertain': 2})
+1267,2023-05-03,qa_pair13,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+1268,2023-05-03,qa_pair14,{'neutral': 1},Counter({'Concerned': 1})
+1269,2023-05-03,qa_pair15,{'neutral': 2},Counter({'Concerned': 1})
+1270,2023-05-03,qa_pair16,{'gratitude': 1},Counter({'Neutral': 1})
+1271,2023-05-03,qa_pair17,{'neutral': 1},Counter({'Concerned': 1})
+1272,2023-05-03,qa_pair18,"{'gratitude': 1, 'curiosity': 1, 'approval': 1}",Counter({'Concerned': 2})
+1273,2023-05-03,qa_pair19,"{'curiosity': 1, 'neutral': 1}",Counter({'Concerned': 1})
+1274,2023-05-03,qa_pair20,"{'curiosity': 1, 'gratitude': 1}",Counter({'Pessimism': 1})
+1275,2023-06-14,opening_remark,"{'neutral': 4, 'gratitude': 1}","Counter({'Concerned': 2, 'Uncertain': 1, 'Neutral': 1})"
